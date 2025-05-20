@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pkl
+*.joblib
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Mac OS and system files
+.DS_Store
+Thumbs.db
+
+# Data and model files
+data/*.csv
+data/*.xlsx
+data/*.zip
+models/
+results/
+*.log
+
+# VSCode and IDE settings (optional)
+.vscode/
+.idea/
+
+# Jupyter Notebook runtime
+*.nbconvert.ipynb
+
+# Cached files and logs
+*.log
+*.tmp
+*.bak
+
+# Output figures
+*.png
+*.jpg
+*.svg
+
+# Data (keep only small sample)
+data/raw/
+data/processed/*.csv
+
+# Ignore large data files
+/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/raw/dailyclimate.csv
+/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/processed/nepal_daily_climate_engineered.csv
+/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/processed/nepal_daily_climate_with_month_year.csv
+

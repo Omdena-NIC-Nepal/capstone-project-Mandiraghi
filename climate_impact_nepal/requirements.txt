@@ -1,0 +1,34 @@
+# requirements.txt
+
+# Core
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+joblib
+
+# NLP (optional for sentiment analysis later)
+nltk
+spacy
+
+# Streamlit dashboard
+streamlit
+plotly
+
+# Geospatial (optional)
+geopandas
+
+# For interactive widgets, maps
+folium
+
+# Notebook environment
+jupyter
+
+# for config files 
+pyyaml 
+
+#for excel 
+openpyxl
+
