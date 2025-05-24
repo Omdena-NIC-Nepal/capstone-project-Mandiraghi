@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
-from streamlit_app.utils.prediction import load_model, make_prediction
-from streamlit_app.utils.model_training import train_model
+from utils.prediction import load_model, make_prediction
+from utils.model_training import train_model
 
 def show_prediction_ui(df):
-    st.title("Predict Climate Variables")
+    st.title("Prediction")
+
+    st.markdown("___________")
 
     """  Select Target and Model
     """ 
@@ -14,7 +16,7 @@ def show_prediction_ui(df):
         "Humidity_2m", "EarthSkinTemp"
     ])
 
-    model_type = st.selectbox("Select model to use", ["RandomForest", "LinearRegression"])
+    model_type = st.selectbox("Select model to use", ["RandomForest", "LinearRegression", "SVM"])
 
     """Load Model
     """
@@ -41,10 +43,13 @@ def show_prediction_ui(df):
         default_val = float(df[feature].mean())
         user_inputs[feature] = st.slider(f"{feature}", min_value=round(min_val, 2), max_value=round(max_val, 2), value=round(default_val, 2))
 
-   
+
+    st.markdown("___________")
+
     """ Predict
     """ 
     
     if st.button(" Predict"):
         result = make_prediction(model, user_inputs, features)
+        st.markdown("__________")
         st.success(f"Predicted {target_column}: **{round(result, 2)}**")

@@ -2,12 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+import folium
+from streamlit_folium import folium_static
 
 
 """ Load Raw Climate Dataset
 """ 
 def load_raw_data():
-    df = pd.read_csv('data/raw/dailyclimate.csv', parse_dates=['Date'], dayfirst=True)
+    df = pd.read_csv('data/processed/sampled_dataset.csv', parse_dates=['Date'], dayfirst=True)
     return df
 
 """ 
@@ -56,9 +58,24 @@ def save_plot(fig, filename):
 
 
 """
+Temperature of Map
+"""
+def plot_show_map(df):
+    m = folium.Map(location=[28.3949, 84.1240], zoom_start=6)
+    for _, row in df.iterrows():
+        folium.CircleMarker(
+            location=[row['Latitude'], row['Longitude']],
+            radius=5,
+            popup=f"{row['District']} - Temp: {row['Temp_2m']}°C",
+            color='red' if row['Temp_2m'] > 35 else 'blue'
+        ).add_to(m)
+    folium_static(m)
+
+
+"""
  Precipitation Distribution Plot
 """
-def plot_precip_distribution(df):
+def plot_precip_distribution(df, save = False):
     fig, ax = plt.subplots(figsize=(10, 6))
     sns.histplot(df['Precip'], bins=40, kde=True, ax=ax)
     ax.set_title("Distribution of Daily Precipitation")
@@ -70,7 +87,7 @@ def plot_precip_distribution(df):
 """
 Temperature Distribution Plot
 """
-def plot_temp_distribution(df):
+def plot_temp_distribution(df, save = False):
     fig, ax = plt.subplots(figsize=(10, 5))
     sns.histplot(df['Temp_2m'], bins=40, kde=True, ax=ax)
     ax.set_title("Distribution of Temperature")
@@ -82,7 +99,7 @@ def plot_temp_distribution(df):
 """
 Daily Temperature Trends Plot
 """
-def plot_daily_temperature_trend(df):
+def plot_daily_temperature_trend(df, save = False):
     fig, ax = plt.subplots(figsize=(10, 8))
     sns.lineplot(data=df, x='Date', y='MaxTemp_2m', label='Max Temp', ax=ax)
     sns.lineplot(data=df, x='Date', y='MinTemp_2m', label='Min Temp', ax=ax)
@@ -99,7 +116,7 @@ def plot_daily_temperature_trend(df):
 """
  Top 10 Hottest Districts Plot
 """
-def plot_top_hot_districts(df):
+def plot_top_hot_districts(df, save = False):
     district_avg_temp = df.groupby('District')['Temp_2m'].mean().sort_values(ascending=False).head(10)
     fig, ax = plt.subplots(figsize=(10, 5))
     sns.barplot(x=district_avg_temp.values, y=district_avg_temp.index, ax=ax)
@@ -113,7 +130,7 @@ def plot_top_hot_districts(df):
 """
 Rainfall Trend Over Time Plot
 """
-def plot_rainfall_trend(df):
+def plot_rainfall_trend(df, save = False):
     fig, ax = plt.subplots(figsize=(14, 6))
     sns.lineplot(data=df, x='Date', y='Precip', ax=ax)
     ax.set_title("Rainfall Trend Over Time")
@@ -126,7 +143,7 @@ def plot_rainfall_trend(df):
 """
  Wind Speed Trend Plot
 """
-def plot_wind_speed_trend(df):
+def plot_wind_speed_trend(df, save = False):
     fig, ax = plt.subplots(figsize=(10, 8))
     sns.lineplot(data=df, x='Date', y='WindSpeed_10m', label='10m Wind', ax=ax)
     sns.lineplot(data=df, x='Date', y='WindSpeed_50m', label='50m Wind', ax=ax)
@@ -142,13 +159,63 @@ def plot_wind_speed_trend(df):
 """ 
 Correlation Heatmap 
 """
-def plot_correlation_heatmap(df):
-    numerical_df = df.select_dtypes(include=['float64', 'int64'])
+def plot_correlation_heatmap(df, save = False):
+    numerical_df = df[[
+        "MaxTemp_2m", "MinTemp_2m", "Humidity_2m", "Precip",
+        "WindSpeed_10m", "WindSpeed_50m", "EarthSkinTemp"
+    ]].dropna()
+    sample_size= min(1000, len(numerical_df))
+    if sample_size == 0:
+        raise ValueError("No data available for correlation heatmap.")
+
+    numerical_df = numerical_df.sample(n=sample_size, random_state=42)
+
+
     fig, ax = plt.subplots(figsize=(14, 10))
     sns.heatmap(numerical_df.corr(), annot=True, fmt=".2f", cmap="coolwarm", ax=ax)
     ax.set_title("Correlation Heatmap of Climate Variables")
     if save:
         save_plot(fig, "correlation_heatmap.png")
+    return fig
+
+
+"""
+    Create a pair plot for selected climate variables.
+"""
+def plot_pairplot(df, save=False):
+    numerical_df = df[[
+        "MaxTemp_2m", "MinTemp_2m", "Humidity_2m", "Precip",
+        "WindSpeed_10m", "WindSpeed_50m", "EarthSkinTemp"
+    ]].dropna()
+
+    sample_size = min(1000, len(numerical_df))
+    if sample_size == 0:
+        raise ValueError("No data available for pair plot.")
+
+    numerical_df = numerical_df.sample(n=sample_size, random_state=42)
+
+    fig = sns.pairplot(numerical_df)
+    if save:
+        fig.savefig("pairplot.png")
+    return fig
+
+
+
+"""
+    Seasonal Plots over time
+"""
+def plot_seasonal(df, column, save=False):
+
+    df['Month'] = df['Date'].dt.month
+    df['Year'] = df['Date'].dt.year
+    pivot_table = df.pivot_table(values=column, index='Month', columns='Year')
+    fig, ax = plt.subplots(figsize=(12, 6))
+    sns.lineplot(data=pivot_table, ax=ax)
+    ax.set_title(f'Seasonal Plot of {column}')
+    ax.set_xlabel('Month')
+    ax.set_ylabel(column)
+    if save:
+        save_plot(fig, f"{column}_seasonal.png")
     return fig
 
 
@@ -163,6 +230,9 @@ if __name__ == "__main__":
     plot_rainfall_trend(df, save=True)
     plot_wind_speed_trend(df, save=True)
     plot_correlation_heatmap(df, save=True)
+    plot_pairplot(df, save=True)
+    plot_seasonal(df, save=True)
+
 
     print(" All plots saved to reports/figures/")
 

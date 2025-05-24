@@ -3,7 +3,7 @@ import pandas as pd
 
 # Loading datasets and reading the data 
 
-def load_data(filepath = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/processed/sample_nepal_climate.csv"):
+def load_data(filepath = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"):
     df = pd.read_csv(filepath, parse_dates = ['Date'])
     return df
 
@@ -38,7 +38,7 @@ def save_updated_data(df, out_path):
 
 
 if __name__ == "__main__":
-    input_path = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/processed/nepal_daily_climate_with_month_year.csv"
+    input_path = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"
     output_path = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/processed/nepal_daily_climate_engineered.csv"
 
     df = load_data(input_path)

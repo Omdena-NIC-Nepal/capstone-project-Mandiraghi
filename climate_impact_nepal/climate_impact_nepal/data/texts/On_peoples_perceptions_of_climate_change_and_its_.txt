@@ -1,0 +1,1395 @@
+RESEARCH ARTICLE
+On people’s perceptions of climate change
+and its impacts in a hotspot of global warming
+Parbati PhuyalID1,2☯*, Isabelle Marie KramerID1,3☯, Indira Kadel4, Edwin Wouters5,6,
+Axel Magdeburg1, David A. Groneberg1, Ulrich Kuch1, Bodo Ahrens7, Mandira
+Lamichhane Dhimal1,8, Meghnath Dhimal1,9‡, Ruth Mu¨ller1,3,10‡
+1 Institute of Occupational Medicine, Social Medicine and Environmental Medicine, Goethe University,
+Frankfurt am Main, Germany, 2 Institute of Environment and Sustainable Development, University of
+Antwerp, Antwerp, Belgium, 3 Department of Biomedical Science, Faculty of Pharmaceutical, Biomedical
+and Veterinary Sciences, University of Antwerp, Antwerp, Belgium, 4 Department of Hydrology and
+Meteorology, Kathmandu, Nepal, 5 Centre for Population, Family & Health, University of Antwerp, Antwerp,
+Belgium, 6 Centre for Health Systems Research & Development, University of the Free State, Bloemfontein,
+South Africa, 7 Institute for Atmospheric and Environmental Sciences, Goethe University, Frankfurt am Main,
+Germany, 8 Planetary Health Research Centre, Kathmandu, Nepal, 9 Nepal Health Research Council,
+Kathmandu, Nepal, 10 Unit Entomology, Institute of Tropical Medicine, Antwerp, Belgium
+☯These authors contributed equally to this work.
+‡ MD and RM share first authorship on this work.
+* phuyalparbati@gmail.com
+Abstract
+The Hindu Kush Himalayan region is a global hotspot for climate change and highly vulnera-
+ble to its direct and indirect impacts. Understanding people’s perception of climate change is
+crucial for effective adaptation strategies. We conducted a study by using quantitative
+(Household survey, n = 660) and qualitative data collection tools (Focus group discussion, n
+= 12; In-depth interviews, n = 27) in central Nepal encompassing three altitudinal regions:
+Lowland (<1000 m amsl; Terai region), Midland (1000–1500 m amsl; hilly region) and High-
+land (1500–2100 m amsl; mountainous region). We analyzed 37 years (1981–2017) of cli-
+matic data from respective districts (Lowland: Chitwan, Dhading; Midland: Kathmandu,
+Lalitpur; Highland: Nuwakot, Rasuwa). People’s perception was compared with climate
+extreme indices measured along these regions and evaluated if they accurately recognized
+the impacts on the environment and human health. Our findings show significant climate
+changes, including rising summer temperature, region-specific winter temperatures and
+extended monsoon seasons in Nepal. Participants in our study accurately perceived these
+trends but misperceived heavy precipitation patterns. Reported impacts are rise in crop dis-
+eases, human diseases, vector expansion and climate induced disasters like floods, land-
+slides, and water resource depletion, with perception accuracy varying by region. These
+insights highlight the importance of understanding regional and cross-regional perceptions
+in relation to climate data in order to develop tailored climate adaptation strategies. Policy-
+makers can use this information to establish region-specific educational and communication
+initiatives, addressing communities’ distinctive vulnerabilities and needs across diverse
+landscapes. Such approaches can enhance equitable and effective climate resilience in
+subtropical to alpine regions.
+PLOS ONE
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+1 / 23
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+OPEN ACCESS
+Citation: Phuyal P, Kramer IM, Kadel I, Wouters E,
+Magdeburg A, Groneberg DA, et al. (2025) On
+people’s perceptions of climate change and its
+impacts in a hotspot of global warming. PLoS ONE
+20(2): e0317786. https://doi.org/10.1371/journal.
+pone.0317786
+Editor: Tasawar Baig, University of Central Asia,
+KYRGYZSTAN
+Received: October 22, 2024
+Accepted: January 3, 2025
+Published: February 13, 2025
+Peer Review History: PLOS recognizes the
+benefits of transparency in the peer review
+process; therefore, we enable the publication of
+all of the content of peer review and author
+responses alongside final, published articles. The
+editorial history of this article is available here:
+https://doi.org/10.1371/journal.pone.0317786
+Copyright: © 2025 Phuyal et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original
+author and source are credited.
+Data Availability Statement: All relevant data are
+within the paper and its Supporting Information
+files.
+Introduction
+Climate change is undoubtedly the most significant global health threat of the 21st century,
+exerting both direct and indirect effects on human health, particularly for socially, economi-
+cally, and culturally vulnerable populations [1–5]. Mountainous regions, such as the Andes,
+Alps, and the Hindu Kush Himalayan (HKH) region, are especially susceptible to the impact
+of rising temperatures [6–9]. The consequences of increasing temperature and altered precipi-
+tation patterns in these global warming hotspots are manifold, affecting both the environment
+and public health. Glacial melting, water scarcity, and reduced crop production are prevalent
+issues in these regions, profoundly impacting the well-being of the local population [7, 9–12].
+The HKH region, in particular, is already experiencing notable climate change impacts affect-
+ing people’s physical and mental health [7, 13, 14]. Thus, unpredictable weather linked to cli-
+mate change will accelerate the spread of infectious diseases and increase the occurrence of
+natural hazards and disasters in the HKH region [15]. The urgency of addressing these cli-
+mate-related health challenges cannot be overstated. This study focuses on Nepal, a developing
+country located in the HKH region, which has been identified as highly vulnerable to climate
+change and its impacts [7, 13, 14, 16–20].
+Understanding people’s perceptions of climate change is crucial when devising policy mea-
+sures. These perceptions significantly influence their level of concern and subsequently impact
+their motivation to take action [21, 22]. In order to foster transformative behavioral changes
+within communities and implement effective and acceptable climate change policies, it is
+essential to have a comprehensive understanding of people’s perceptions [18]. Moreover,
+studying local concerns and responses within a global warming hotspot can further facilitate
+global cooperation in mitigating the impacts of climate change [23]. In Nepal, several studies
+have investigated people’s perceptions of climate change, but they all have limitations. Some
+studies focused solely on perceptions without considering other factors [24–26], while others
+compared perceptions with a limited set of climate indicators [27–31]. None of these studies
+incorporated a comprehensive set of climate indicators along with people’s perceptions.
+Instead, studies that included climatic data focused solely on annual mean, minimum, and
+maximum temperatures and precipitation amounts (detail summary of published literature in
+S1 Table) [17, 32–39]. However, combining social and extensive climatic data is crucial to eval-
+uate the accuracy of people’s perceptions of climatic changes. In this regard, Shrestha et al.
+[40] were the first to combine perception and climatic data, demonstrating that people in
+Nepal primarily perceive temperature changes rather than precipitation changes. It is impor-
+tant to note that the relationship between people’s perceptions and the reality of climate
+change is influenced by the specific context. Nepal is divided into different altitudinal regions
+from South to North, leading to elevation-dependent warming [17]. Thus, those shortcomings
+from the previous studies motivated us to conduct the current study by coupling objective cli-
+mate indicators with subjective people’s perception to fill the gaps. Therefore, we hypothesize
+that people’s perceptions of climate change and its direct and indirect impacts may vary
+among these altitudinal regions.
+To test the hypothesis regarding variations in people’s perceptions across three different
+altitudinal regions, we employed a cross-sectional mixed-method research design. Our
+approach involved several steps: 1) we analyzed the annual and seasonal climate trends, includ-
+ing climate extreme indices (detailed in Table 1), and examined the timing of monsoon onset
+and withdrawal over the past 37 years.
+This analysis covered a trend period of 37 years (1981–2017), and we compared the last 30
+years (1981–2010) with the most recent 7 years (2011–2017). These investigations were con-
+ducted in the Lowland region (<1000 m above mean sea level (amsl)), Midland region (1000–
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+2 / 23
+Funding: The work was funded by the Federal
+Ministry of Education and Research of Germany
+(BMBF) under the project AECO (Number
+01Kl1717) as part of the National Research
+Network on Zoonotic Infectious Diseases of
+Germany. The funders had no role in study design,
+data collection and analysis, decision to publish, or
+preparation of the manuscript.
+Competing interests: The authors have declared
+that no competing interests exist.
+1500 m amsl), and Highland region (1500–2100 m amsl) of Central Nepal. 2) We evaluated
+whether people’s perceptions (P) aligned with the actual climate trends. This evaluation uti-
+lized both quantitative data from household surveys (HHS) and qualitative data obtained from
+focus group discussions (FGD) and in-depth interviews (IDI). 3) We assessed whether this
+association between perceptions and climate trends varied across different altitudes. 4) Addi-
+tionally, we examined whether people accurately perceived the direct and indirect impacts of
+climate change, particularly on human health and other sectors, based on their place of resi-
+dence. Overall, our research design aimed to investigate perceptions across altitudinal regions,
+compare them with climate trends, and determine the accuracy of perceptions regarding the
+impacts of climate change on various sectors.
+Table 1. Definition of temperature and precipitation extreme climate indices [41].
+Type of indicator
+Indices
+Indicator name
+Definition
+Temperature
+indicators
+Percentile indicators
+TX90P
+Warm days
+Percentage of days when TX>90th percentile
+TN90P
+Warm nights
+Percentage of days when TN>90th percentile
+TX10P
+cool days
+Percentage of days when TX<10th percentile
+TN10P
+cool nights
+Percentage of days when TN<10th percentile
+Threshold indicators
+SU
+Summer days
+Annual count when TX(daily maximum)>25˚C
+TR
+Tropical nights
+Annual count when TN(daily minimum)>20˚C
+FD
+Frost days
+Annual count when TN(daily minimum)
+Absolute Indicators
+TNx
+Warmest nights
+Monthly maximum value of daily minimum temp
+TXx
+Warmest day
+Monthly maximum value of daily maximum temp
+TNn
+Coldest nights
+Monthly minimum value of daily minimum temp
+TXn
+Coldest day
+Monthly minimum value of daily maximum temp
+DTR
+Diurnal temperature range
+Daily maximum temperature–daily minimum temperature
+Duration indicators
+WSDI
+Warm spell duration indicator
+Annual count of days with at least 6 consecutive days when TX>90th percentile
+CSDI
+Cold spell duration indicator
+Annual count of days with at least six consecutive days when TN
+Precipitation
+indicator
+Percentile indicators
+R95pTOT
+Precipitation on very wet days
+Annual total PRCP when RR>95th percentile
+Threshold indicators
+R10MM
+Number of heavy precipitation days
+Annual count of days when PRCP> = 10 mm
+R20MM
+Number of very heavy precipitation
+days
+Annual count of days when PRCP> = 20 mm
+Absolute indicators
+Rx1Day
+Monthly max. 1 day precipitation
+amount
+Monthly maximum 1-day precipitation
+Rx5Day
+Monthly max. 5 day precipitation
+amount
+Monthly maximum 5-day precipitation
+Duration indicators
+CWD
+Consecutive wet days
+Maximum number of consecutive days with RR> = 1 mm
+CDD
+Consecutive dry days
+Maximum number of consecutive days with RR<1m
+Other indicators
+PRCPTOT
+Annual total wet-day precipitation
+Annual total PRCP in wet days (RR>01 mm)
+SDII
+Simple daily intensity index
+Annual total precipitation divided by the number of wet days (defined as Prcp>1 mm)
+in the year
+https://doi.org/10.1371/journal.pone.0317786.t001
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+3 / 23
+Materials and methods
+Ethical approval
+The Ethical Review Board (ERB) of the Nepal Health Research Council (NHRC), Government
+of Nepal approved the protocol of this study (registration no. 381/2017). The objectives of the
+study were explained to the local community people, community leaders and health profes-
+sionals before the start of the data collection (household surveys, focus group discussions, in-
+depth interviews). They were informed that participation in the study was voluntary and that
+they could leave at any time during the interview or withdraw their consent to participate at
+any point. We obtained written informed consent from all participants.
+Inclusivity in global research
+Additional information regarding the ethical, cultural, and scientific considerations specific to
+inclusivity in global research is included in the Supporting Information (S1 File).
+Study design and setting
+In September and October 2018, a cross-sectional mixed-method study (quantitative and qual-
+itative) was carried out in the Lowland, Midland and Highland regions of Central Nepal. Sec-
+ondary climatic data was collected from the Department of Hydrology and Meteorology
+(DHM), Nepal. The quantitative data was collected by conducting household surveys (HHS)
+and the qualitative data by conducting focus group discussions (FGDs) and in-depth inter-
+views (IDIs). This concurrent mixed method design was adopted to triangulate the findings
+[42]; where, the qualitative data helps to make statistical relations more understandable and
+intense by using the citations or descriptive language and, thus, this enables a better under-
+standing of the quantitative data [43, 44].
+Study area
+Central Nepal (Bagmati province) was selected as study area (Fig 1). The Bagmati province is
+the largest province of Nepal in regard to the number of inhabitants (about 21% of the total
+population; [45]. Six administrative districts (Lowland: Chitwan, Dhading; Midland: Kath-
+mandu, Lalitpur; Highland: Nuwakot and Rasuwa) of Central Nepal were selected purposively
+as they represent broad vertical cross-sections, extending along an altitudinal range from 100
+m to 2,100 m above mean sea level (amsl). The study areas (districts) were categorized based
+on altitudinal variations: Lowland (<1000 m amsl; Terai region), Midland (1000–1500 m
+amsl; hilly region) and Highland (1500–2100 m amsl; mountainous region) to see whether
+there were differences between climatic perceptions and real climatic trends at different altitu-
+dinal regions. The study sites are connected via road network from South to North. The Low-
+land and Midland are predominately urban areas with tropical to subtropical climates,
+compared to the rural Highland, which experiences a temperate to alpine climate [46–48].
+Lowland and Midland districts have relatively better concentration of resources, population,
+physical infrastructure as well as economic and industrial activities compared to Highland dis-
+tricts [49].
+Climate data
+To compare people’s perception on climate change with the instrumental data, we analyzed 37
+years of climate data (temperature, precipitation) from nearby stations of the respective dis-
+tricts within three regions (S2 Table; two weather stations per region: Lowland, Midland,
+Highland). Firstly, 30 years (1981–2010) of weather data was used as the base period and a
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+4 / 23
+period of seven years (2011–2017) of weather data was used as the recent time frame to match
+with the people’s perceptions and, secondly, 37 years (1981–2017) of trend analysis was also
+performed. Climate data was procured from the Department of Hydrology and meteorology
+(DHM). The approximate distance between the weather stations and social sampling sites are
+provided (S2 Table).
+Annual and seasonal (pre-monsoon, monsoon, post-monsoon, winter) climate extreme
+indices were calculated using the Climdex software based on the CCl/CLIVAR/JCOMM
+Expert Team on Climate Change Detection and Indices (ETCCDI; http://etccdi.pacificclimate.
+org/, Table 1). Suspicious or erroneous data were replaced with missing values before the cal-
+culation of the extreme indices (S3 Table), however, for a few of the years, the climate extreme
+indicator values could not be calculated (S3 Table). Seasonal and annual climate extreme indi-
+ces were graphically illustrated showing the last 30 years vs. the last 7 years using violin plots
+(S1–S3 Figs). The indices SU, TR, FD, WSDI and CSDI were only illustrated/calculated annu-
+ally (details in Table 1). A trend analysis over the last 37 years was conducted to describe the
+overall annual and seasonal trends of the climatic changes in three altitudinal regions and
+across those regions in Central Nepal, respectively. The Mann-Kendall test and Sen’s slope
+methods were used to calculate the magnitude and significance of the overall trend in the cli-
+mate time series data from 1981 to 2017 using an MS-Excel tool called MAKESEN’S (version
+1.0) developed by the Finnish Meteorological Institute (FMI) in 2002 [50]. In addition, the
+Fig 1. Map of the study area, Nepal. (A) Bagmati Province (in dark grey) where the altitudinal gradient is located. (B) Study districts from Lowland (Chitwan, Dhading)
+and Midland (Kathmandu, Lalitpur) to Highland (Nuwakot, Rasuwa) between 100 to 2100 m amsl. The study sites are indicated with black dots. The map was created
+using RStudio 2024.04.02 with R packages ggplot2, sf, dplyr and ggspatial.
+https://doi.org/10.1371/journal.pone.0317786.g001
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+5 / 23
+distributions of the annual and seasonal climate extreme indices calculated for the last 30 years
+(1981–2010) vs. the last 7 years (2011–2017) were compared by means of nonparametric
+Mann-Whitney tests. Mann-Whitney U-statistics were used to assess the observed versus the
+perceived climatic changes in different altitudinal regions and across the regions of Central
+Nepal. The software Prism v.9 (GraphPad, San Diego, CA, USA) was used for all graphical
+illustrations and statistical analyses.
+Social survey
+Quantitative data collection methods and sampling strategy.
+Quantitative data was col-
+lected by conducting 660 households surveys from six districts (Lowland: Chitwan and Dhad-
+ing; Midland: Kathmandu and Lalitpur; Highland: Nuwakot and Rasuwa). In each district,
+clusters including at least 100 private households were randomly selected for completing a
+household questionnaire survey (S2 File). Since we did not have a sampling frame, we assume
+our prevalence as 50% to maximize our sample size. With a 95% confidence level and 5%
+allowable error, the sample size in each district was 96. i.e., n = z^2*P*Q/d^2 =
+(1.96^2*0.5^2)/ (0.1^2) = 96. After adding 10% for non-responses, our sample size in each dis-
+trict became 106, which was rounded to 110 for convenience and, thus, in total, 660 house-
+holds (220 in each region: Lowland, Midland and Highland) were targeted for the household
+survey.
+The households for HHS were chosen in selected clusters along main roads with a 50 m
+radius of transect employing a simple random sampling. All eligible individuals (aged 18 or
+above and who had not moved away or died) were listed for each selected household and one
+participant from that list was selected randomly to take part in the survey using the WHO-Kish
+method [51]. A questionnaire for climate change perception previously used [43] was adapted
+for this study. We collected primary data on (1) demographic information (age, education,
+occupation, marital status, income, ethnicity and the type of residence of the participant), (2)
+perceptions on the environmental and climate change, and (3) perceptions on the impacts of
+climate change on human health and other sectors.
+Quantitative data analysis.
+The collected quantitative data was verified and entered in
+the Epi Data 3.1 Software (EpiData Association, Denmark) and analyzed using the statistical
+package for the Social Sciences software (IBM SPSS Statistics for Windows, Version 24). Chi-
+square tests were used to compare the socio-demographic characteristics and climate change
+perceptions between the Lowland, Midland and Highland. The Fisher’s exact test was used
+when appropriate, i.e., when more than 20% of the cells had an expected frequencies of <5
+[52].
+Qualitative data collection methods and sampling strategy.
+Twelve focus group discus-
+sions (FGD) with community people of the respective districts and 27 in-depth interviews
+(IDIs) with local political leaders, community leaders, female community health volunteers
+(FCHVs), teachers and public health professionals were carried out using a purposive sam-
+pling method [53]. Based on the principal of saturation, the number of IDIs and FGDs were
+determined [54, 55]. The FGDs and IDIs were conducted in the Nepali language by following
+the semi-structured guidelines for interview and FGD guide (S3 File); information from these
+discussions and interviews was recorded. In some cases (n = 2), interviews were not recorded
+due to unexpected technical problems and only notes were prepared.
+Qualitative data analysis.
+Qualitative data analysis was performed using MAXQDA soft-
+ware. First, FGDs and IDIs were transcribed in Nepali language and later translated into
+English. To avoid bias in the translation and to validate the information, the translation was
+double-checked by two study team members and then the English version of each transcript
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+6 / 23
+was uploaded into MAXQDA. Initially, themes and sub-themes were defined based on find-
+ings from the literature and were then used to create a ‘code list’ on climate change and its
+impacts. Emerging themes from the transcripts were also incorporated. Using the code list, the
+data were coded and recoded in the MAXQDA software, following the approach used in previ-
+ous study [43]. The themes and subthemes were identified using a simultaneous deductive and
+inductive approach [43, 44, 56]. The English transcripts were then coded with defined catego-
+ries accordingly. Finally, all coded material per category was summarized and findings were
+derived.
+Comparison of people’s perception and climatic trends
+We compared the perceptions of the people with the climate extremes by means of heat maps
+(software: Prism v.9, Version 9, GraphPad Software Inc., San Diego-CA, USA). The heat maps
+(Figs 3 and 4) show the most common answer of the people per perception (given as a fraction
+of the total answers) and the trend of the climate extreme indices (Sen’s slope and significance
+of the Mann-Whitney U-statistics after FDR correction). We merged the sub-categories for
+perceptions P1-P6 (S4 Fig) into main categories: P1) “very low” and “low” were summarized
+as “decrease”, P2) “normal high” and “very high” as “increase”, and P4) “less shifting” and
+“much shifting” were merged to “shifting earlier”, and, “less prolonging” and “much prolong-
+ing” were merged and categorized as “prolonging”. Detailed results on P3 were present in P4
+and P5 and therefore P3 was not included in the heat map (Fig 4).
+The false discovery rate (FDR) was conducted per region and per perception using the
+‘Two-stage step-up method of Benjamini, Krieger and Yekutieli’ with a desired FDR of 5% (for
+details see Figs 3 and 4). We also illustrated the monthly precipitation trends in the last 30
+years vs. the last 7 years. In addition, to compare the people’s perceptions of the shift or pro-
+longing of the monsoon season with timely data, the dates of the monsoon onset, the with-
+drawal of the monsoon and the monsoon season length were downloaded from the
+Department of Hydrology and Meteorology, Kathmandu Nepal (http://dhm.gov.np/
+download/) for the whole of Nepal (region-specific values were not present). The onset of the
+monsoon in Nepal was determined by the Department of Hydrology and Meteorology accord-
+ing to the following factors: 1) the wind direction over South-Eastern Nepal at the surface and
+upper levels should be south-eastern at the surface with a western direction jet wind towards
+the Tibetan Plateau, 2) past three days of continuous rainfall should be present, 3) the air pres-
+sure at the surface and upper levels should be a low pressure system, 4) the progression of
+monsoon onset from the South to North from India is evaluated, and 5) outgoing longwave
+radiation is investigated and should be reduced over Eastern Nepal. The monsoon onset and
+withdrawal dates as well as the monsoon season length were analysed over time (37 years)
+using the Mann- Kendall test and the Sen’s slope methods. In addition, the last 30 years vs. 7
+years were compared with each other using a Mann-Whitney test.
+Results
+The climate in Central Nepal has undergone significant changes in recent decades, including
+increasing summer temperatures, region-specific winter temperature increases, and an
+extended monsoon season. People have generally perceived these temperature trends accu-
+rately. However, there has been a misperception regarding a decrease in heavy precipitation
+patterns across the regions. People have also reported both direct and indirect impacts of cli-
+mate change. Across different altitudinal regions, they have particularly noted an increase in
+crop diseases and the appearance of vectors in new areas. Furthermore, region-specific impacts
+include floods, landslides, transmission of vector-borne diseases, and the depletion of water
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+7 / 23
+resources. The participants from all study areas correctly perceived the growing threat of vec-
+tor expansion.
+Comparison of perception on direct climate change impacts and climatic
+trends
+People’s perceptions of meteorological and climatic changes and their impact on human health
+generally aligned with the climate trends observed in the study areas (P = perception; P1, P2
+for all areas; P2, P5 for Lowland and Midland; P4 for Midland and Highland), except for heavy
+rainfall in recent years (P6; Fig 2). In summary, people accurately identified the overall increas-
+ing trend in summer temperatures across all altitudinal regions (P1) and the region-specific
+temperature trends in winter (P2; Table 2, Figs 2 and 3).
+In the Lowland, HHS participants’ perception on a trend in winter cold was discordant
+(feels same; 31.5%, decrease; 31.5%, increase; 30.6%), while the IDI and FGD participants
+Fig 2. People’s perceptions on climate change and variability. Heat map of the perceptions P1 to P6 (% participants, p-value from Chi-square test) in accordance with
+the altitudinal residence of the participants in Lowland, Midland and Highland or their general residence in Central Nepal. Detailed responses of participants are given in
+S8 Fig (details S4 File).
+https://doi.org/10.1371/journal.pone.0317786.g002
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+8 / 23
+Table 2. Comparison of the trend of people’s perceptions and the climatic trends (social data: Quantitative data: Household survey (n = 660); qualitative data:
+Focus group discussions (n = 12), in-depth interviews (n = 27); climate data: Climate extreme indices, Table 1). In addition, the temporal trend is given for the percep-
+tions related to the monsoon (S9 Fig). Depending on the perception, the presence of a trend (yes, no, unclear/mixed) or a trend direction (increase, decrease, unclear) is
+given. Significance of each data type is presented in detail in Figs 2–5. Qualitative data trend of people’s perception was evaluated by the authors. The trend in quantitative
+data is always represented by the most frequently occurring value, if it is not clearly different from the others it was given as unclear (Figs 1 and 5). Climatic trend was
+given by summarizing observed (significant) trends (Figs 3, 4 and S9 Fig). Brackets indicate only a small trend (climate = one or a few significant indices, temporal
+shift = no significant trend). NA = data not available. Green color = social and climate data is matching. Grey color = one data type is missing, so a comparison is not possi-
+ble (details S4 File).
+People’s perception on climate change
+Perception
+Data Type
+Lowland
+Midland
+Highland
+P1: Intensity of heat level in summer
+Climate
+increase
+increase
+increase
+Quantitative social data
+increase
+increase
+increase
+Qualitative social data
+increase
+increase
+increase
+P2: Bitterness of cold during winter
+Climate
+(decrease)
+decrease
+decrease
+Quantitative social data
+decrease
+decrease
+increase
+Qualitative social data
+increase
+decrease
+increase
+P3: Change in rainfall timing
+Climate (annual)
+yes
+yes
+yes
+Temporal shift
+yes
+yes
+yes
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+yes
+yes
+yes
+P4: Monsoon shifting earlier
+Climate (pre-monsoon)
+(increase)
+(increase)
+(increase)
+Temporal shift
+(yes)
+(yes)
+(yes)
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+no
+mixed
+yes
+P5: Prolonging of monsoon to post-monsoon and winter
+Climate (post-monsoon)
+(increase)
+(increase)
+(decrease)
+Temporal shift
+yes
+yes
+yes
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+yes
+yes
+no
+P6: Experienced heavy rainfall in later years
+Climate
+(decrease)
+(decrease)
+(decrease)
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+yes
+yes
+yes
+People’s perception on environmental change
+Perception
+Data Type
+Lowland
+Midland
+Highland
+P7: Experienced drying of water resources
+Quantitative social data
+no
+yes
+yes
+Qualitative social data
+yes
+yes
+yes
+P8: Experienced increase in frequency of droughts
+Quantitative social data
+(yes)
+(yes)
+(yes)
+Qualitative social data
+yes
+yes
+no
+P9: Experienced of mosquitoes in new areas
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+yes
+yes
+yes
+P10: Experienced the transmission of vector-borne diseases in new areas
+Quantitative social data
+yes
+yes
+no
+Qualitative social data
+yes
+yes
+no
+P11: Experienced of new human diseases
+Quantitative social data
+no
+no
+no
+Qualitative social data
+yes
+yes
+yes
+P12: Experienced new crop diseases
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+yes
+yes
+yes
+P13: Experienced new domestic animal diseases
+Quantitative social data
+no
+no
+no
+Qualitative social data
+NA
+NA
+NA
+P14: Experienced less snow
+Quantitative social data
+yes
+yes
+yes
+Qualitative social data
+NA
+NA
+NA
+P15: Experienced increase in floods and landslides
+Quantitative social data
+no
+no
+yes
+Qualitative social data
+yes
+yes
+yes
+https://doi.org/10.1371/journal.pone.0317786.t002
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+9 / 23
+reported an increase in winter cold (Table 2, Fig 3). In line, a clear significant temperature
+trend in the Lowlands was not present (cool days (TX10P) increase, cool nights (TN10P)
+decrease). The majority of participants in the Midland correctly perceived a decreasing trend
+in winter cold, which aligns with observed climatic trends. In the Highland, the perception of
+increasing winter cold was partly discordant with the observed climatic trend of a decrease in
+winter cold over the past 37 years, although some data in the Highland were missing in the
+past 30 years (Fig 3, S3 Table). Additionally, the number of frost days did not significantly
+decrease in the Highland, unlike the Midland where all indices showed significant differences
+in the past 7 to 30 years, and temperature extremes such as the number of cold days/nights
+were increasing. These factors potentially explain why people perceived an increase in winter
+cold in the Highland. The temperature trend in winter in the Lowland, as well as partly in the
+Fig 3. The match between the perceptions P1-P2 and the seasonal precipitation/climate parameters. Heat map of the perceptions P1 and P2 (given as fractions of the
+total answers) and the trend (Sen’s slope) over the last 37 years (1981–2017) of the summer/monsoon season and winter-related climate extreme indices (Table 1) in
+accordance with the altitudinal residence of participants in Lowland, Midland and Highland or their general residence in Central Nepal. Significant climate indicators
+from the trend analysis (Mann-Kandall test) over the last 37 years (1981–2017) are marked with a asterisk (* p < 0.05, ** p < 0.01, *** p < 0.0001). Significant climate
+indicators (Mann-Whitney U-test) in the 30 years (1981–2010) vs. 7 years (2011–2017) comparison, after FDR correction, are marked in bold. In the Highlands, no
+tropical nights (TR) were recorded (details S4 File).
+https://doi.org/10.1371/journal.pone.0317786.g003
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+10 / 23
+Highland, was not as systematic and highly significant as in the Midland, which may contrib-
+ute to the varying perceptions among people.
+People correctly perceived a change in the monsoon rainfall pattern (P3, Fig 4, Table 2, and
+S9 Fig). Although there was no clear systematic shift in precipitation-related climate extreme
+indices (only small trends existed), the majority of participants from all altitudinal regions con-
+sistently perceived temporal changes, such as an earlier start and prolonged monsoon season,
+and increased heavy rainfall (P4, P5, P6; Fig 4).
+Perceptions P3 and P5 align with the observed withdrawal of the monsoon and an increase
+in the number of monsoon days (S9 Fig). However, when comparing climate data with quanti-
+tative and qualitative data on the timing of monsoon rainfall (P4, P5), discrepancies were
+found, indicating that people struggle to accurately identify temporal precipitation trends,
+such as earlier/later onset and withdrawal (Table 2). Perception P6 showed a complete discrep-
+ancy between people’s perception and climate data (Table 2, Fig 4). People perceived increas-
+ing rainfall in all regions of Central Nepal, despite the fact that the number of heavy
+precipitation days was decreasing (Table 2, Fig 4).
+Comparison of perception on indirect climate change impacts and climatic
+trends
+People in Central Nepal also perceived various indirect impacts of climate change (P7-P15;
+Table 2, Fig 5). Direct impacts, such as the drying-up of water resources (P7), were particularly
+perceived in the Midland and Highland. Although people could not directly perceive the
+decreasing trend in precipitation, they indirectly noticed the drying-up of water resources,
+which indicated this negative trend (P7; Fig 5).
+Additionally, an increase in floods and landslides was mostly reported in the Highland
+(HHS), while participants in the Lowland and Midland (IDI and FGD) partly reported this
+increase. Correspondingly, heavy precipitation (Rx5Day) and the number of wet days (CWD)
+increased during the monsoon season in the Highland, potentially contributing to such events.
+In the Midland, heavy precipitation events (Rx5Day) and overall annual heavy precipitation
+(R95pTOT) also increased during the monsoon and post-monsoon seasons. Furthermore,
+people from each region perceived a decrease in snowfall days and snow cover (P14), as well as
+an increase in the duration of droughts and drought-like conditions (P8) (Table 2, Fig 5). This
+increase in droughts can be linked to a decreasing trend in annual rainfall patterns (R10mm,
+R20mm, Rx5day, CDD; S9 Fig) observed in all regions.
+Regarding indirect impacts, people in the Lowland and Midland perceived the presence of
+mosquitoes (P9) and the transmission of vector-borne diseases in new areas (P10), while in the
+Highland, people only perceived the spread of mosquitoes to new areas (Table 2, Fig 5). In addi-
+tion, people (IDIs) reported the new occurrence of poisonous snakes (Cobra, Krait) in the High-
+land areas in recent years (details in S4 File). People from all regions perceived an increase in crop
+diseases (P12), but no new human diseases (P11) were reported (Table 2, Fig 5). However, FGD
+and IDI participants from all regions reported a rise in non-communicable diseases, including
+diabetes and hypertension. Additionally, they noted that seasonal flu has become more severe and
+spreads more rapidly, with common colds now requiring longer recovery times despite previously
+being manageable with simple remedies (S4 File). In general, participants (HHS, FGD, and IDI)
+were able to distinguish between vector-borne diseases and other human diseases, although there
+were differing perceptions regarding the occurrence of human diseases (HHS: no increase; IDI,
+FGD: increase; Fig 5)382. Similarly, the IDI participants from all regions (Lowland, Midland,
+Highland) have also reported that unusual rainfall patterns and climate-induced disasters along
+with crop pests had adversely affected the production of food grains, vegetables and fruits.
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+11 / 23
+Fig 4. The match between the perceptions P4-P6 and the seasonal precipitation/climate parameters. Heat map of the perceptions P4 –P6 (given as fractions of the total
+answers) and the trend (Sen’s slope) over the past 37 years (1981–2017) of seasonal and annual precipitation-related climate extreme indices (Table 1) in accordance with
+the altitudinal residence of the participants in Lowland, Midland and Highland or their general residence in Central Nepal. Significant indicators from the trend analysis
+(Mann- Kendall test) over the past 37 years (1981–2017) are marked with an asterisk (* p < 0.05, ** p < 0.01, *** p < 0.0001). Significant climate indicators (Mann-
+Whitney U-test) in the 30 years (1981–2010) vs. 7 years (2011–2017) comparison, after FDR correction, are marked in bold. For P4, the results of the monsoon season are
+given to complete the dataset, however, the monsoon season was not part of the FDR correction for P4 (details S4 File).
+https://doi.org/10.1371/journal.pone.0317786.g004
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+12 / 23
+Discussion
+Mountainous regions, such as the Hindu Kush Himalayan region, are facing rapid climate
+change and are particularly vulnerable to its direct and indirect impacts [6–9, 57, 58]. In our
+study, we investigated people’s perceptions of climate and climate change in different altitudi-
+nal regions of Nepal, which is part of the HKH region. Our findings provide valuable insights
+into how people perceive climate warming and its impact on human health. We demonstrated
+that observed climatic trends in Central Nepal are partially perceived accurately, although this
+perception varies depending on participants’ residential areas and the extent of climatic
+changes in those areas. Understanding the direct and indirect impacts of climate change, both
+regionally and cross-regionally, can contribute to fostering public engagement and developing
+effective communication and educational strategies regarding the connections between cli-
+mate warming and health [18]. Furthermore, our results have global implications, serving as a
+forecast for major aspects of climate change that will likely be perceptible to people in the
+future from subtropical to alpine regions.
+Fig 5. People’s perceptions on the impacts of environmental and climate change. Heat map of the perceptions P7–15 (percentages of the answers by the participants are
+given; p-values from the Chi square test) in accordance with the residential area of the participants in Lowland, Midland and Highland or their general residence in
+Central Nepal.
+https://doi.org/10.1371/journal.pone.0317786.g005
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+13 / 23
+Our study on people’s perceptions of climate change revealed that participants accurately
+perceived the seasonal temperature trends in different altitudinal regions, particularly during
+summer and winter. In various areas of the HKH region, increasing temperatures were per-
+ceived and sometimes supported by the observed temperature trends (detailed comparison of
+people’s perception and temperature trends in multiple regions of the HKH region are sum-
+marized in S1 Table). Consistent with Central Nepal, an overall increase in summer tempera-
+tures was commonly perceived in the Lowland and Midland regions of the entire HKH region,
+which aligns with previous studies conducted in other parts of Eastern, Western and Central
+Nepal, and in other HKH countries like Bangladesh and India [25, 27–29, 31, 59, 60]. An ear-
+lier onset of summer was perceived in general in Central Nepal and specifically by the High-
+land communities, which is in line with previous studies from Eastern Nepal [31, 61]. Likewise
+previous research conducted in Nepal [31], we found the Midland and Highland communities
+perceived shorter winters, while a decrease in winter cold was perceived in the Lowland of
+Central Nepal which is consistent with previous studies in Western Lowland parts of HKH
+country, Nepal [27, 28]. In Central Nepal, the trend of decreasing winter cold was most pro-
+nounced in the Midland, likely influenced by urbanization and the heat island effect [37, 62–
+65]. Conversely, people in the Highland of Central Nepal perceived an increase in winter cold,
+while in other HKH regions, this perception was only reported in the Lowland [66].
+Our findings confirmed that in Nepal, changes in precipitation patterns and heavy precipi-
+tation trends are not as noticeable as temperature changes [40]. The majority of people in the
+Highlands perceived an increase in heavy precipitation, which may be related to the rising
+trend of rainfall in those regions (PRCPTOT: 7.53mm/year, not significant). Since a significant
+portion of Highland people engage in agriculture (33.5%; S5 Fig), they are likely to notice even
+small changes in precipitation [67]. Overall, people in the HKH region perceived changes in
+the monsoon rainfall pattern, particularly in terms of timing, although previous studies have
+shown that perceptions of precipitation changes vary across different regions in the HKH
+region [24–29, 31, 40, 59, 60, 66, 68]. In recent years (2005–2016), Nepal has experienced an
+increase in indirect climate change impacts such as floods and landslides [58, 69]. This increase
+may have led people in Central Nepal to perceive an increase in heavy rainfall, even though
+heavy rainfall had actually decreased. From 2000–2009, compared to each other, Lowland dis-
+tricts were highly affected by floods (including Chitwan, also in 2017), while Highland districts
+were moderately and the Midland districts were less affected [69, 70]. Highland residents in
+our study may have perceived more floods due to the increasing frequency of outburst floods
+from glacial lakes [71]. Additionally, landslides have heavily impacted the Nuwakot district,
+which is part of the Highland region [70, 72]. Indeed, loss of life and property due to extreme
+rainfall events has already been reported in Nepal [69, 70, 73]. Such negative events have a sig-
+nificant impact on the psychological well-being of individuals [74], potentially explaining why
+people perceived an increase in heavy rainfall patterns. In general, people in the HKH region
+perceived an increase in floods across all altitudinal regions, while an increase in landslides
+was also frequently reported in the Midland and Highland regions, in line with previous stud-
+ies [24, 29, 31, 40, 57, 59, 68]. In fact, a study in Nepal has also reported increasing frequency
+of climatic disasters and, mortality due to these climate induced disasters since 3 decades
+(1992–2021), highlighting the vulnerability of the Mid hills (Midland) and Mountains regions
+(Highland) to landslides and the Lowland Terai regions to floods [57].
+Furthermore, droughts in Central Nepal have become more severe and frequent [75], and
+this increase has been perceived by people across all regions. Dryness or droughts have also
+been perceived in other parts of the HKH region, highlighting the significant impact of global
+warming [24, 29, 31, 40, 59, 68]. The agricultural sector, including agricultural production, is
+affected by increasing temperatures and droughts caused by climate warming [7], reflecting
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+14 / 23
+our findings. Additionally, the people from all regions of Central Nepal perceived an increase
+in new crop diseases and the reduction in crop production. These findings are consistent with
+previous studies in other parts of Western and Central Nepal where people also reported
+declining of crop yield due to increase in new crop pests along with climate-induced disasters
+[24, 31, 76]. This might be due to rising temperatures that influence reproduction, spread and
+severity of numerous plants pathogens, while also causing a shifting of crop pathogens from
+Lowland to Highland regions [77, 78]. Additionally, people in our study have also observed
+changes in biodiversity, such as early flowering of plants, which is consistent with previous
+studies conducted in Nepal [31, 68]. Similarly, people residing in Pakistan have also reported
+changes in plant distribution (shift to higher altitudes), abundance, and flowering periods due
+to climate change, aligning with our findings from FGDs in Central Nepal [79].
+At the interface of biodiversity and health, health-threatening animals, such as venomous
+snakes, are expanding their distribution to higher altitudes as perceived by the IDI participants
+in our study and as demonstrated by previous studies conducted in Nepal [80, 81]. Another
+health threat to humans is the altitudinal expansion of vector-borne diseases (e.g., malaria and
+dengue) throughout the entire HKH region [14]. Vector-borne diseases and their vectors are
+already common in the Low- and Midland regions (Fig 4- P4 and 5; [14, 16, 82, 83]), while cli-
+mate change-induced vector-borne diseases, such as dengue, are projected to increase and
+become more common at higher altitudes [14, 84]. Therefore, in the present study people
+from Central Nepal, especially in Lowland regions, have correctly reported an increase or
+emergence of vectors [24, 29, 66, 68]. In the Lowland region of Central Nepal, FGD and IDI
+participants have experienced an increase in communicable (influenza) and non-communica-
+ble diseases (diabetes, blood pressure). This observation aligns with research indicating a rise
+in influenza in Nepal since 2004 [85, 86], as well as predictions that non-communicable dis-
+eases will worsen across the HKH region [7].
+In general, people’s motivation to take action on climate change is influenced by their level
+of concern, which is influenced by their individual perceptions [21, 22]. Hence, increasing the
+local, regional and cross-regional adaptive capacity will help to reduce the impacts of climate
+change on the health and well-being of people residing in the Nepal specifically and the HKH
+region in particular [7].
+Conclusion and recommendations
+This study could offer valuable insights into people’s perceptions of climate change in relation
+to weather data, not only within the HKH region but also in other regions worldwide with sim-
+ilar geographical landscapes. Our study provides also important insights into people´s percep-
+tions on direct and indirect impacts of climate changes on human health, agriculture,
+biodiversity and overall in environment in Central Nepal. The observed climatic trends in
+Central Nepal are in part correctly perceived, which strongly depends on the residential area
+of participants and the respective extent of climate changes. Thus, the level of understanding
+of the direct and indirect impacts of climate change encompasses some regional and some
+cross-regional aspects that could be helpful to build widespread public engagement and
+develop effective communication and educational approaches on the interactions of climate
+change and health in a region-specific manner. Globally, our findings provide a projection of
+significant aspects of climate change that will likely be perceptible to people in the future. The
+perceptions of Nepalese people and those living in the HKH region underscore the urgent
+need for coping strategies to address declining agricultural productivity, prompting a recom-
+mendation for local stakeholders and regional governments to focus on measures such as
+improved water management practices for the dry season, adjusted sowing and planting
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+15 / 23
+schedules, modified cropping patterns, and environmentally sustainable professional pest con-
+trol methods which are already being in practiced by farmers in some parts of Nepal [87].
+Also, countrywide biodiversity conservation strategies, combined with climate change mitiga-
+tion and adaptation activities, are necessary, especially to mitigate the increasing heat. It is also
+advisable to revise plans for coping with the impacts of climate change, especially for victims
+of natural disasters, according to region-specific perceptions. Similarly, comprehensive infor-
+mation and awareness campaigns addressing the risk of snakebites in highland regions, along-
+side initiatives to enhance public understanding of vectors and vector-borne diseases, should
+be implemented across all regions to encourage the adoption of effective preventive measures
+[88]. Meanwhile, strengthening Nepal’s public health infrastructure and establishing early
+warning systems for climate-sensitive and epidemic-prone infectious diseases in the HKH
+region are essential to prevent further spread of vectors and vector-borne diseases. [7, 89].
+Thus, we recommend that policymakers in Central Nepal and in general in the HKH region
+focus on designing, communicating, and implementing climate adaptation strategies [90]
+based on the direct and indirect climate change impacts that were primarily perceived in this
+study. Those strategies should address both regional and cross-regional climate change
+impacts.
+Strengths and limitations
+The strength of the present study lies in its cross-sectional mixed-method research design,
+which combines different data sources on climate change and perception, including climatic
+data and social data, sampled along an altitudinal gradient. This research design provided us
+with the opportunity to triangulate the findings and gain a deeper understanding of the rela-
+tionship between climate change and people’s perceptions. However, this study must be inter-
+preted with caution regarding certain aspects. The data was collected in densely populated
+urban and semi-urban areas of each altitudinal region, and therefore, the clustering of house-
+holds within a 50 m radius around the data collection site may not be representative of the dis-
+tricts and the entire country. Additionally, our study is focused exclusively on Central Nepal
+(Bagmati province), the most populated region of Nepal. Considering the country’s significant
+geographical and socio-economic diversity, conducting similar studies in other regions of
+Nepal in the future could provide a more comprehensive understanding of climate variability
+and its impacts across diverse geographical and socio-economic contexts. However, we have
+also extensively reviewed the relevant literature to identify similarities and differences between
+the different altitudinal regions in Central Nepal and other studies conducted in general in the
+HKH region (S1 Table).
+This is the first study that has identified region-specific as well as cross-region specific
+impacts of climate change in the HKH region itself. The study underlines that transdisciplinary
+research is essential and the first step to plan later effective implementation of mitigation and
+adaptation strategies that would be accepted by the public in the face of climate change
+impacts. A better understanding of people’s perceptions of climate change in a global warming
+hotspot will likely help policymakers induce transformational behavioral changes not only in
+the HKH region but also globally.
+Supporting information
+S1 Fig. Annual climate extreme indices related to warm temperatures in Central Nepal.
+Results are given for the Lowland, Midland and Highland and also across the altitudinal gradi-
+ent in Central Nepal during a past 30 year’s period (1981–2010) vs. past 7 years (2011–2017).
+Climatic indices: A) TX90P- warm days, B) TN90P- warm nights, C) SU-summer days, D)
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+16 / 23
+TR-Tropical nights, E) TXx- warmest day F) TNx-warmest night and G) WSDI- warm spell
+duration indicator. Significant climate indicators (Mann-Whitney U-test) in the 30 years
+(1981–2010) vs. 7 years (2011–2017) comparison after FDR correction are marked with an
+asterisk.
+(TIF)
+S2 Fig. Annual climate extreme indices related to cold temperatures in Central Nepal.
+Results are given for the Lowland, Midland, Highland and also across the altitudinal gradient
+in Central Nepal during a past 30 year- period (1981–2010) vs. past 7 years (2011–2017). Cli-
+matic indices: A) TX10P- cool days, B) TN10P- cool nights, C) FD- frost days, D) DTR- daily
+temperature range, E) TXn- coldest day F) TNn- coldest night and G) CSDI- cold spell dura-
+tion indicator. Significant climate indicators (Mann-Whitney U-test) in the 30 years (1981–
+2010) vs. 7 years (2011–2017) comparison after FDR correction are marked with an asterisk.
+(TIF)
+S3 Fig. Annual precipitation-related climate extreme indices in Central Nepal. Results are
+given for the Lowland, Midland and Highland and also across the altitudinal gradient in Cen-
+tral Nepal during a past 30 years-period (1981–2010) vs. the past 7 years (2011–2017). Climatic
+indices: A) PCRPTOT- annual total wet-day precipitation, B) R95PTOT- precipitation on very
+wet days, C) R10MM- number of heavy precipitation days, D) R20MM- number of very heavy
+precipitation days, E) RX1Day PCPN- monthly max 1 day precipitation amount, F) RX5Day
+PCPN- monthly max. 5 day precipitation amount, G) CDD- consecutive wet days, H) CWD-
+consecutive dry days, and I) SDII- simple daily precipitation intensity index.
+(TIF)
+S4 Fig. Detailed people’s perceptions on climate change and variability. Heat map of the
+perceptions P1-P6 on climate change and climatic variability (% participants; p-value from the
+Chi-square test) in accordance with the altitudinal residence of the participants in the Low-
+land, Midland and Highland or their general residence in Central Nepal.
+(TIF)
+S5 Fig. Socio-demographic characteristics of the study participants in Nepal. Heat map of
+the socio-demographic characteristics (% participants; p-value from the Chi-square test) in
+accordance with the altitudinal residence of the participants in the Lowland, Midland and
+Highland or their general residence in Central Nepal.
+(TIF)
+S6 Fig. The match between the perception P1-P2 and the annual precipitation/climate
+parameters. Heat map of the people’s perceptions of P1 and P2 (given as fractions of the total
+answers) and the trends (Sen’ slope) over the last 37 years (1981–2017) of the heat or cold-
+related annual climate extreme indices (Table 1) in accordance with the residence of the partic-
+ipants in the Lowland, Midland and Highland or their general residence in Central Nepal. Sig-
+nificant climate indicators from the trend analyis ((Mann- Kendall test) over the last 37 years
+(1981–2017) are marked with an asterisk (* p < 0.05, ** p < 0.01, *** p < 0.0001). Significant
+climate indicators (Mann-Whitney U-test) in the 30 years (1981–2010) vs. 7 years (2011–2017)
+comparison after FDR correction are marked in bold. In the Highland no tropical nights (TR)
+were recorded.
+(TIF)
+S7 Fig. The match between the perceptions P4-P6 and the annual precipitation/climate
+parameters. Heat map of perceptions P4 –P6 (given as fractions of the total answers) and the
+trend (Sen’s slope) over the last 37 years (1981–2017) of annual precipitation-related climate
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+17 / 23
+extreme indices (Table 1) in accordance with the residence of participants in the Lowland,
+Midland and Highland or their general residence in Central Nepal. Significant indicators from
+the trend analyis (Mann- Kendall test) over the last 37 years (1981–2017) are marked with a
+asterisk(* p < 0.05, ** p < 0.01, *** p < 0.0001). Significant climate indicators (Mann-Whit-
+ney U-test) in the 30 years (1981–2010) vs. 7 years (2011–2017) comparison after FDR correc-
+tion are marked in bold.
+(TIF)
+S8 Fig. Precipitation (mm) in the last 30 years (1981–2010) vs. the last 7 years (2011–
+2017). Precipitation is shown for the regions A) Lowland, B) Midland, C) Highland, and D)
+Central Nepal.
+(TIF)
+S9 Fig. Temporal changes of the monsoon season in Nepal. Monsoon onset (A), monsoon
+withdrawal (B) and the monsoon period (C; in days) from 1981–2017 in Central Nepal. Data
+of the year 1980 is missing. Figures are adjusted using data/figures from the Department of
+Hydrology and Meteorology, Kathmandu Nepal (http://dhm.gov.np/download/). The 37-year
+trend analysis: Sen’s slope: A) -0.02 (p = not significant), B) 0.65 (p<0.0001), C) 0.71
+(p<0.0001). 30 years vs. 7 years analysis: Mann-Whitney test: A) p = not significant, B)
+p<0.01, C) p<0.05).
+(TIF)
+S1 Table. Current knowledge of climate and/or social studies on climate change impacts
+conducted in the Hindu Kush Himalayan region or other relevant mountains regions in
+the world.
+(XLSX)
+S2 Table. Description of weather stations per study region (details about altitude and dis-
+tances from social data collection sites).
+(DOCX)
+S3 Table. Amount of missing values of climate extreme indices (%). Given per study region
+(Lowland, Midland and Highland) and per 30-year baseline (1981–2010) or for the last 7 years
+(2011–2017).
+(DOCX)
+S1 File. Checklist of inclusively in global research questionnaire.
+(DOCX)
+S2 File. Household survey questionnaire.
+(DOCX)
+S3 File. Focus group discussion (FGDs) and Interview guidelines.
+(PDF)
+S4 File. Detail results on climate extreme indices and social survey.
+(DOCX)
+Acknowledgments
+We thank the Nepal Health Research Council for helping us to organize the survey and to pro-
+vide the ethical clearance. We are grateful to the Department of Hydrology and Meteorology,
+Kathmandu, Nepal for providing the set of climate data and information. We thank Tamanna
+Neupane, Susma Baniya, Anuja Ghimire, Alisha Adhikari, Santoshi Bhandari, Diksha Parajuli,
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+18 / 23
+Ichchha Thapa Magar and Sujan Thapa for their contributions during the data collection, Ute
+Germann, for helping with literature searches, and Gabriele Volante and Markus Braun for
+providing administrative support. We also express our sincere gratitude to all individuals who
+agreed to participate in this study.
+Author Contributions
+Conceptualization: Ulrich Kuch, Bodo Ahrens, Meghnath Dhimal, Ruth Mu¨ller.
+Data curation: Parbati Phuyal, Isabelle Marie Kramer, Indira Kadel.
+Formal analysis: Parbati Phuyal, Isabelle Marie Kramer.
+Funding acquisition: Ruth Mu¨ller.
+Methodology: Parbati Phuyal, Isabelle Marie Kramer.
+Project administration: Axel Magdeburg, David A. Groneberg.
+Resources: David A. Groneberg, Meghnath Dhimal, Ruth Mu¨ller.
+Software: Axel Magdeburg.
+Supervision: Edwin Wouters, Ulrich Kuch, Bodo Ahrens, Mandira Lamichhane Dhimal,
+Meghnath Dhimal, Ruth Mu¨ller.
+Validation: Parbati Phuyal, Isabelle Marie Kramer, Bodo Ahrens, Mandira Lamichhane Dhi-
+mal, Meghnath Dhimal, Ruth Mu¨ller.
+Visualization: Parbati Phuyal, Isabelle Marie Kramer, Ruth Mu¨ller.
+Writing – original draft: Parbati Phuyal, Isabelle Marie Kramer.
+Writing – review & editing: Indira Kadel, Edwin Wouters, Axel Magdeburg, David A. Grone-
+berg, Ulrich Kuch, Bodo Ahrens, Mandira Lamichhane Dhimal, Meghnath Dhimal, Ruth
+Mu¨ller.
+References
+1.
+Woodward A, Smith KR, Campbell-Lendrum D, Chadee DD, Honda Y, Liu Q, et al. Climate change and
+health: On the latest IPCC report. Lancet. 2014; 383: 1185–1189. https://doi.org/10.1016/S0140-6736
+(14)60576-6 PMID: 24703554
+2.
+IPCC. Climate Change 2014-Impacts, Adaptation, and Vulnerability: Regional Aspects. Barros VR,
+AField CB, Dokken DJ, Mastrandrea MD, Mach KJ, Bilir TE, et al., editors. Quarterly Journal of Eco-
+nomics. Cambridge, United Kingdom and New York: Cambridge University Press,; 2014. https://doi.
+org/10.2307/1881805
+3.
+Robinson S ann. Climate change adaptation in SIDS: A systematic review of the literature pre and post
+the IPCC Fifth Assessment Report. Wiley Interdiscip Rev Clim Chang. 2020; 11: 1–21. https://doi.org/
+10.1002/wcc.653
+4.
+RANKOANA S. A Review of Rural Communities’ Vulnerability to Climate Change: The Case of Limpopo
+Province in South Africa. Int J Environ Sustain Soc Sci. 2023; 4: 1742–1754. https://doi.org/10.38142/
+ijesss.v4i6.722
+5.
+Aliaga-Samanez A, Romero D, Murray K, Cobos-Mayo M, Segura M, Real R, et al. Climate change is
+aggravating dengue and yellow fever transmission risk. Ecography (Cop). 2024; 1–9. https://doi.org/10.
+1111/ecog.06942
+6.
+Chettri N, Shrestha AB, Sharma E. Climate Change Trends and Ecological Resilience in the Hindu
+Kush Himalaya. Himal Weather Clim their Impact Environ. 2019; 525–552. https://doi.org/10.1007/978-
+3-030-29684-1
+7.
+Dhimal M, Bhandari D, Dhimal ML, Kafle N, Pyakurel P, Mahotra N, et al. Impact of Climate Change on
+Health and Well-Being of People in Hindu Kush Himalayan Region: A Narrative Review. Front Physiol.
+2021; 12. https://doi.org/10.3389/fphys.2021.651189 PMID: 34421631
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+19 / 23
+8.
+Jurt C, Burga MD, Vicuña L, Huggel C, Orlove B. Local perceptions in climate change debates: insights
+from case studies in the Alps and the Andes. Clim Change. Climatic Change; 2015; 133: 511–523.
+https://doi.org/10.1007/s10584-015-1529-5
+9.
+Postigo JC. Perception and Resilience of Andean Populations Facing Climate Change. J Ethnobiol.
+2014; 34: 383–400. https://doi.org/10.2993/0278-0771-34.3.383
+10.
+Bru¨gger A, Tobias R, Monge-Rodrı´guez FS. Public perceptions of climate change in the peruvian
+andes. Sustain. 2021; 13: 1–28. https://doi.org/10.3390/su13052677
+11.
+Hamilton LC, Keim BD. Regional variation in perceptions about climate change. Int J Climatol. 2009; 29:
+2348–2352. https://doi.org/10.1002/joc.1930
+12.
+Fierros-Gonza´lez I, Lo´pez-Feldman A. Farmers’ Perception of Climate Change: A Review of the Litera-
+ture for Latin America. Front Environ Sci. 2021; 9: 1–7. https://doi.org/10.3389/fenvs.2021.672399
+13.
+Phuyal P, Kramer IM, Klingelho¨fer D, Kuch U, Madeburg A, Groneberg DA, et al. Spatiotemporal distri-
+bution of dengue and chikungunya in the Hindu Kush Himalayan region: A systematic review. Int J Envi-
+ron Res Public Health. 2020; 17: 6656. https://doi.org/10.3390/ijerph17186656 PMID: 32932665
+14.
+Dhimal M, Kramer IM, Phuyal P, Budhathoki SS, Hartke J, Ahrens B, et al. Climate change and its asso-
+ciation with the expansion of vectors and vector-borne diseases in the Hindu Kush Himalayan region: A
+systematic synthesis of the literature. Adv Clim Chang Res. 2021; 12: 421–429. https://doi.org/10.1016/
+j.accre.2021.05.003
+15.
+Singh SP, Khadka IB, Karky BS, Sharma E. Climate change in the Hindu Kush-Himalayas: The State of
+Current Knowledge. International Centr for Integrated Mountain Development (ICIMOD). Kathmandu,
+Nepal: International Centre for Integrated Mountain Development; 2011.
+16.
+Rijal KR, Adhikari B, Ghimire B, Dhungel B, Pyakurel UR, Shah P, et al. Epidemiology of dengue virus
+infections in Nepal, 2006–2019. Infect Dis Poverty. BioMed Central; 2021; 10: 1–10. https://doi.org/10.
+1186/s40249-021-00837-0 PMID: 33858508
+17.
+Thakuri S, Dahal S, Shrestha D, Guyennon N, Romano E, Colombo N, et al. Elevation-dependent
+warming of maximum air temperature in Nepal during 1976–2015. Atmos Res. Elsevier; 2019; 228:
+261–269. https://doi.org/10.1016/j.atmosres.2019.06.006
+18.
+Whitmarsh L, Capstick S. Perceptions of climate change [Internet]. Clayton S, Manning C, editors. Psy-
+chology and Climate Change. Academic Press; 2018. https://doi.org/10.1016/B978-0-12-813130-5.
+00002–3
+19.
+IPCC. Climate Change 2022: Impacts, Adaptation and Vulnerability Working Group II Contribution to
+the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Po¨rtner H-O, Roberts
+DC, Tignor M, Poloczanska ES, Mintenbeck K, Alegrı´a A, et al., editors. Cambridge University Press,
+Cambridge, UK and New York, NY, USA: International Panel on Climate Change; 2022. https://doi.org/
+10.1017/9781009325844.CITATIONS
+20.
+Karki B. The Threats of Climate Change in Nepal: Natural Catastrophes and Global Conflict Frontiers.
+Unity J. 2024; 5: 141–156. https://doi.org/10.3126/unityj.v5i1.63182
+21.
+Swim J, Clayton S, Doherty T, Gifford R. Psychology and global climate change: Addressing a multi-fac-
+eted phenomenon and set of challenges. American Psychological Association, Washington, DC.
+2009. https://doi.org/10.4324/9780429037757-8
+22.
+Tobler C, Visschers VHM, Siegrist M. Addressing climate change: Determinants of consumers’ willing-
+ness to act and to support policy measures. J Environ Psychol. Elsevier Ltd; 2012; 32: 197–207. https://
+doi.org/10.1016/j.jenvp.2012.02.001
+23.
+Gupta J, van der Leeuw K, de Moel H. Climate change: a ‘global’ problem requiring ‘global’ action. Envi-
+ron Sci. 2007; 4: 139–148. https://doi.org/10.1080/15693430701742677
+24.
+Adhikari JN, Bhattarai BP, Thapa T bahadur. Local People’s Perception on Climate Change, its Indica-
+tors and Adaptation Strategies in the Chitwan-Annapurna Landscape, Nepal. J Ecol Nat Resour. 2019;
+3: 1–9. https://doi.org/10.23880/jenr-16000153
+25.
+Mishra SR, Bhandari PM, Issa R, Neupane D, Gurung S, Khanal V. Climate change and adverse health
+events: Community perceptions from the Tanahu district of Nepal. Environ Res Lett. IOP Publishing;
+2015; 10: 1–6. https://doi.org/10.1088/1748-9326/10/3/034007
+26.
+Negi VS, Maikhuri RK, Pharswan D, Thakur S, Dhyani PP. Climate change impact in the Western Hima-
+laya: people’s perception and adaptive strategies. J Mt Sci. 2017; 14: 403–416. https://doi.org/10.1007/
+s11629-015-3814-1
+27.
+Bhattarai B, Sigdel R, Gautam D, Buctuan Jandug CM, Sharma J. People’s Perception on Climate
+Change, its Impact and Adaptive Strategies in Kaligandaki Rural Municipality, Syangja, Nepal. South
+Asian Res J Biol Appl Biosci. 2020; 02: 1–6. https://doi.org/10.36346/sarjbab.2020.v02i01.001
+28.
+Devkota RP. Climate Change: Trends and People’s Perception in Nepal. J Environ Prot (Irvine, Calif).
+2014; 05: 255–265. https://doi.org/10.4236/jep.2014.54029
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+20 / 23
+29.
+Joshi A, Farquhar S, Assareh N, Dahlet L, Landahl E. Climate change in lamjung district, nepal: Meteo-
+rological evidence, community perceptions, and responses. Environ Res Commun. IOP Publishing;
+2019; 1: 1–13. https://doi.org/10.1088/2515-7620/ab1762
+30.
+Macchi M, Gurung AM, Hoermann B. Community perceptions and responses to climate variability and
+change in the Himalayas. Clim Dev. 2014; 7: 414–425. https://doi.org/10.1080/17565529.2014.966046
+31.
+Uprety Y, Shrestha UB, Rokaya MB, Shrestha S, Chaudhary RP, Thakali A, et al. Perceptions of climate
+change by highland communities in the Nepal Himalaya. Clim Dev. Taylor & Francis; 2017; 9: 649–661.
+https://doi.org/10.1080/17565529.2017.1304886
+32.
+Awasthi RP, Owen JS. Observed Climate Extreme in Nepal. Geogr Base. 2020; 7: 1–14. https://doi.org/
+10.3126/tgb.v7i0.34262
+33.
+Dahal N, Shrestha UB, Tuitui A, Ojha HR. Temporal changes in precipitation and temperature and their
+implications on the streamflow of Rosi river, Central Nepal. Climate. 2019; 7: 1–15. https://doi.org/10.
+3390/cli7010003
+34.
+DHM. Observed Climate Trend Analysis of Nepal (1971–2014). Kathmandu, Nepal; 2017.
+35.
+Karki R, ul Hasson S, Schickhoff U, Scholten T, Bo¨hner J. Rising precipitation extremes across Nepal.
+Climate. 2017; 5: 1–25. https://doi.org/10.3390/cli5010004
+36.
+Lamichhane D, Dawadi B, Acharya RH, Pudasainee S, Shrestha IK. Observed Trends and Spatial Dis-
+tribution in Daily Precipitation Indices of Extremes over the Narayani River Basin, Central Nepal. Appl
+Ecol Environ Sci. 2020; 8: 106–118. https://doi.org/10.12691/aees-8-3-6
+37.
+Poudel A, Cuo L, Ding J, Gyawali AR. Spatio-temporal variability of the annual and monthly extreme
+temperature indices in Nepal. Int J Climatol. 2020; 40: 4956–4977. https://doi.org/10.1002/joc.6499
+38.
+Sharma S, Khadka N, Hamal K, Baniya B, Luintel N, Joshi BB. Spatial and temporal analysis of precipi-
+tation and its extremities in seven provinces of Nepal (2001–2016). Appl Ecol Environ Sci. 2020; 8: 64–
+73. https://doi.org/10.12691/aees-8-2-4
+39.
+Talchabhadel R, Aryal A, Kawaike K, Yamanoi K, Nakagawa H. A comprehensive analysis of projected
+changes of extreme precipitation indices in West Rapti River basin, Nepal under changing climate. Int J
+Climatol. 2021; 41: E2581–E2599. https://doi.org/10.1002/joc.6866
+40.
+Shrestha UB, Shrestha AM, Aryal S, Shrestha S, Gautam MS, Ojha H. Climate change in Nepal: a com-
+prehensive analysis of instrumental data and people’s perceptions. Clim Change. Climatic Change;
+2019; 154: 315–334. https://doi.org/10.1007/s10584-019-02418-5
+41.
+Insaf TZ, Lin S, Sheridan SC. Climate trends in indices for temperature and precipitation across New
+York State, 1948–2008. Air Qual Atmos Heal. 2013; 6: 247–257. https://doi.org/10.1007/s11869-011-
+0168-x
+42.
+Greene JC, Caracelli VJ, Graham WF. Toward a Conceptual Framework for Mixed-Method Evaluation
+Designs. Educ Eval Policy Anal. 1989; 11: 255–274. https://doi.org/10.3102/01623737011003255
+43.
+Lamichhane Dhimal M. Gender Dimensions of Health Impact of Climate Change in Nepal: A Compre-
+hensive Empirical Study [Internet]. Bla¨ttel-Mink PDB, Voitel DWD du, Keller DB, Kramer PDC, Langfeldt
+DB, Mischau DA, editors. Schriften zur interdisziplina¨ren Frauen- und Geschlechterforschung. | Series
+on Interdisciplinary Women’s and Gender Studies. Baden-Baden: Nomos Verlagsgesellschaft mbH &
+Co. KG; 2018. https://doi.org/10.5771/9783845293431
+44.
+Powers of qualitative research. Nat Clim Chang. 2021; 11: 717. https://doi.org/10.1038/s41558-021-
+01153-z
+45.
+Nepali S, Ghale S, Hachhethu K, Reviewers. Federal Nepal: The Provinces, Socio -cultural profiles of
+the seven Provinces. Kathmanu, Nepal: Governanace Facility; 2018.
+46.
+Dhimal M, Aryal KK, Dhimal ML, Gautam I, Singh SP, Bhusal CL, et al. Knowledge, attitude and practice
+regarding dengue fever among the healthy population of highland and lowland communities in Central
+Nepal. PLoS One. 2014; 9: 1–15. https://doi.org/10.1371/journal.pone.0102028 PMID: 25007284
+47.
+Luitel DR, Jha PK, Siwakoti M, Shrestha ML, Munniappan R. Climatic trends in different bioclimatic
+zones in the Chitwan Annapurna landscape, Nepal. Climate. 2020; 136: 1–18. https://doi.org/10.3390/
+cli8110136
+48.
+Karki R, Talchabhadel R, Aalto J, Baidya SK. New climatic classification of Nepal. Theor Appl Climatol.
+Theoretical and Applied Climatology; 2016; 125: 799–808. https://doi.org/10.1007/s00704-015-1549-0
+49.
+Province Policy and Planning Commission. A Province with many Prospects: An Introduction to Prov-
+ince No. 3 [Internet]. Hetauda, Nepal: Government of Province, Province Policy and Planning Cpmis-
+sion, Province No.3; 2019. Available: https://pppc.p3.gov.np/wp-content/uploads/2019/05/An-
+Introduction-to-Province-3-Nepal.pdf
+50.
+Salmi T, Ma¨a¨tta¨ A, Anttila P, Ruoho-Airola T, Amnell T. Publications on air quality ATMOSPHERIC
+POLLUTANTS BY THE MANN-KENDALL. 2002.
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+21 / 23
+51.
+WHO. WHO steps surveillance management. World Health Organization; 2017.
+52.
+Kim H-Y. Statistical notes for clinical researchers: Chi-squared test and Fisher’s exact test. Restor Dent
+Endod. 2017; 42: 152. https://doi.org/10.5395/rde.2017.42.2.152 PMID: 28503482
+53.
+Teddlie C, YU F. Mixed methods sampling: A typology with examples. J Mix Methods Res. 2007; 1: 77–
+100. https://doi.org/10.1177/1558689806292430
+54.
+Saunders B, Sim J, Kingstone T, Baker S, Waterfield J, Bartlam B, et al. Saturation in qualitative
+research: exploring its conceptualization and operationalization. Qual Quant. Springer Netherlands;
+2018; 52: 1893–1907. https://doi.org/10.1007/s11135-017-0574-8 PMID: 29937585
+55.
+Guest G, Bunce A, Johnson L. How Many Interviews Are Enough?: An Experiment with Data Saturation
+and Variability. Field methods. 2006; 18: 59–82. https://doi.org/10.1177/1525822X05279903
+56.
+Azungah T. Qualitative research: deductive and inductive approaches to data analysis. Qual Res J.
+2018; 18: 383–400. https://doi.org/10.1108/QRJ-D-18-00035
+57.
+Chapagain D, Bharati L, Borgemeister C. Declining vulnerability but rising impacts: the trends of climatic
+disasters in Nepal. Reg Environ Chang. Springer Berlin Heidelberg; 2022; 22. https://doi.org/10.1007/
+s10113-022-01903-5
+58.
+Adhikari BR, Tian B. Spatiotemporal Distribution of Landslides in Nepal. In: Eslamian S, Eslamian F,
+editors. Handbook of Disaster Risk Reduction for Resilience. Cham: Springer International Publishing;
+2021. pp. 453–471. https://doi.org/10.1007/978-3-030-61278-8_20
+59.
+Devkota RP, Pandey VP, Bhattarai U, Shrestha H, Adhikari S, Dulal KN. Climate change and adaptation
+strategies in Budhi Gandaki River Basin, Nepal: a perception-based analysis. Clim Change. Climatic
+Change; 2017; 140: 195–208. https://doi.org/10.1007/s10584-016-1836-5
+60.
+Huda MN. Understanding indigenous people’s perception on climate change and climatic hazards: A
+case study of Chakma indigenous communities in Rangamati Sadar Upazila of Rangamati District, Ban-
+gladesh. Nat Hazards. 2013; 65: 2147–2159. https://doi.org/10.1007/s11069-012-0467-z
+61.
+Chaudhary P, Bawa KS. Local perceptions of climate change validated by scientific evidence in the
+Himalayas. Biol Lett. 2011; 7: 767–770. https://doi.org/10.1098/rsbl.2011.0269 PMID: 21525050
+62.
+Karl TR, Diaz HF, Kukla G. Urbanization: Its Detection and Effect in the United States Climate Record. J
+Clim. 1988; 1099–1123.
+63.
+Maharjan S, Regmi RP. Grid Based Temperature and Relative Humidity Distribution Map of the Kath-
+mandu Valley. J Inst Sci Technol. 2015; 19: 7–13. https://doi.org/10.3126/jist.v19i1.13819
+64.
+Mishra B, Sandifer J, Gyawali BR. Urban Heat Island in Kathmandu, Nepal: Evaluating Relationship
+between NDVI and LST from 2000 to 2018. Int J Environ. 2019; 8: 17–29. https://doi.org/10.3126/ije.
+v8i1.22546
+65.
+Mitchell JM. The Temperature of Cities. Weatherwise. 1961; 14: 224–258. https://doi.org/10.1080/
+00431672.1961.9930028
+66.
+Neupane BK, Acharya A, Thapa L. Local People’s Perception on Climate Change at Kamalamai Munici-
+pality, Sindhuli. Geogr Base. 2019; 6: 21–31. https://doi.org/10.3126/tgb.v6i0.26164
+67.
+Wolf J, Moser SC. Individual understandings, perceptions, and engagement with climate change:
+Insights from in-depth studies across the world. Wiley Interdiscip Rev Clim Chang. 2011; 2: 547–569.
+https://doi.org/10.1002/wcc.120
+68.
+Chaudhary P, Rai S, Wangdi S, Mao A, Rehman N, Chettri S, et al. Consistency of local perceptions of
+climate change in the Kangchenjunga Himalaya landscape. Curr Sci. 2011; 101: 504–513. Available:
+http://www.jstor.org/stable/24078981
+69.
+Sharma TPP, Zhang J, Koju UA, Zhang S, Bai Y, Suwal MK. Review of flood disaster studies in Nepal:
+A remote sensing perspective. Int J Disaster Risk Reduct. Elsevier Ltd; 2019; 34: 18–27. https://doi.org/
+10.1016/j.ijdrr.2018.11.022
+70.
+C S K. Community vulnerability to floods and landslides in Nepal. Ecol Soc. 2013; 18: 1–13. https://doi.
+org/10.5751/ES-05095-180108
+71.
+Khadka N, Zhang G, Thakuri S. Glacial lakes in the Nepal Himalaya: Inventory and decadal dynamics
+(1977–2017). Remote Sens. 2018; 10: 1–19. https://doi.org/10.3390/rs10121913
+72.
+Gaire S, Delgado RC, Gonza´lez PA. Disaster risk profile and existing legal framework of Nepal: Floods
+and landslides. Risk Manag Healthc Policy. 2015; 8: 139–149. https://doi.org/10.2147/RMHP.S90238
+PMID: 26366106
+73.
+MoFE. National Framework on Climate Change Induced Loss and Damage (L&D) [Internet]. Singh
+Durbar, Kathmandu, Nepal: Government of Nepal, Ministry of Forests and Environment; 2021. Avail-
+able: www.mofe.gov.np
+74.
+Baumeister RF, Bratslavsky E, Finkenauer C, Vohs KD. Bad Is Stronger Than Good. Rev Gen Psychol.
+2001; 5: 323–370. https://doi.org/10.1037/1089-2680.5.4.323
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+22 / 23
+75.
+Dahal P, Shrestha NS, Shrestha ML, Krakauer NY, Panthi J, Pradhanang SM, et al. Drought risk
+assessment in central Nepal: temporal and spatial analysis. Nat Hazards. Springer Netherlands; 2016;
+80: 1913–1932. https://doi.org/10.1007/s11069-015-2055-5
+76.
+Sujakhu NM, Ranjitkar S, Niraula RR, Pokharel BK, Schmidt-Vogt D, Xu J. Farmers’ perceptions of and
+adaptations to changing climate in the Melamchi Valley of Nepal. Mt Res Dev. 2016; 36: 15–30. https://
+doi.org/10.1659/MRD-JOURNAL-D-15-00032.1
+77.
+Lahlali R, Taoussi M, Laasli SE, Gachara G, Ezzouggari R, Belabess Z, et al. Effects of climate change
+on plant pathogens and host-pathogen interactions. Crop Environ. The Author(s); 2024; 3: 159–170.
+https://doi.org/10.1016/j.crope.2024.05.003
+78.
+Karki A, GC S. Impact of climate change on plant diseases. J Plant Prot Soc. 2020; 6: 1–16.
+79.
+Bhatta LD, Udas E, Khan B, Ajmal A, Amir R, Ranabhat S. Local knowledge based perceptions on cli-
+mate change and its impacts in the Rakaposhi valley of Gilgit-Baltistan, Pakistan. Int J Clim Chang Stra-
+teg Manag. 2020; 12: 222–237. https://doi.org/10.1108/IJCCSM-05-2019-0024
+80.
+Dhimal M, Karki KB. The hidden burden of Neglected Tropical Diseases: a call for inter-sectoral collabo-
+ration in Nepal. J Nepal Health Res Counc. 2014; 12: I–IV.
+81.
+Sharma SK, Pandey DP, Shah KB, Tillack F, Chappuis F, Thapa C, et al. Venomous Snakes of Nepal.
+A photographic guide (English ed.) [Internet]. B.P. Koirala Institute of Health Sciences Dharan, Nepal;
+2013. Available: http://www.novapublishers.com
+82.
+Dhimal M, Gautam I, Kreß A, Mu¨ller R, Kuch U. Spatio-temporal distribution of dengue and lymphatic fil-
+ariasis vectors along an altitudinal transect in central Nepal. PLoS Negl Trop Dis. 2014; 8: 1–30. https://
+doi.org/10.1371/journal.pntd.0003035 PMID: 25078276
+83.
+Tuladhar R, Singh A, Banjara MR, Gautam I, Dhimal M, Varma A, et al. Effect of meteorological factors
+on the seasonal prevalence of dengue vectors in upland hilly and lowland Terai regions of Nepal. Parasit
+Vectors. Parasites & Vectors; 2019; 12: 1–15. https://doi.org/10.1186/s13071-019-3304-3 PMID:
+30658693
+84.
+Acharya BK, Cao C, Xu M, Khanal L, Naeem S, Pandit S. Present and future of dengue fever in nepal:
+Mapping climatic suitability by ecological niche model. Int J Environ Res Public Health. 2018; 15: 1–15.
+https://doi.org/10.3390/ijerph15020187 PMID: 29360797
+85.
+Jha BK, Pandit R, Jha R, Manandhar K Das. Overview of seasonal influenza and recommended vac-
+cine during the 2016/2017 season in Nepal. Heliyon. Elsevier Ltd; 2020; 6: 1–6. https://doi.org/10.1016/
+j.heliyon.2020.e03304 PMID: 32021940
+86.
+Upadhyay BP, Ghimire P, Tashiro M, Banjara MR. Molecular Epidemiology and Antigenic Characteriza-
+tion of Seasonal Influenza Viruses Circulating in Nepal. J Nepal Health Res Counc. 2017; 15: 44–50.
+https://doi.org/10.3126/jnhrc.v15i1.18013 PMID: 28714491
+87.
+Budhathoki NK, Zander KK. Nepalese farmers’ climate change perceptions, reality and farming strate-
+gies. Clim Dev. Taylor & Francis; 2020; 12: 204–215. https://doi.org/10.1080/17565529.2019.1612317
+88.
+Phuyal P, Kramer IM, Kuch U, Magdeburg A, Groneberg DA, Lamichhane Dhimal M, et al. The knowl-
+edge, attitude and practice of community people on dengue fever in Central Nepal: a cross-sectional
+study. BMC Infect Dis. BioMed Central; 2022; 22: 1–18. https://doi.org/10.1186/s12879-022-07404-4
+PMID: 35549884
+89.
+Bhandari D, Bi P, Sherchand JB, Dhimal M, Hanson-Easey S. Climate change and infectious disease
+research in Nepal: Are the available prerequisites supportive enough to researchers? Acta Trop. Else-
+vier B.V.; 2020; 204: 105337. https://doi.org/10.1016/j.actatropica.2020.105337 PMID: 31930962
+90.
+MoHP. Climate Change Health Adaptation Strategies and Action Plans of Nepal (2017–2021). Kath-
+mandu, Nepal: Government of Nepal, Ministry of Health and Population; 2021.
+PLOS ONE
+Perceptions of climate change and its impacts
+PLOS ONE | https://doi.org/10.1371/journal.pone.0317786
+February 13, 2025
+23 / 23
