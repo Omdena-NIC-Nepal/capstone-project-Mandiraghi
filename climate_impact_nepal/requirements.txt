@@ -9,7 +9,7 @@ scikit-learn
 xgboost
 joblib
 
-# NLP (optional for sentiment analysis later)
+# NLP 
 nltk
 spacy
 
@@ -17,11 +17,12 @@ spacy
 streamlit
 plotly
 
-# Geospatial (optional)
+# Geospatial 
 geopandas
 
 # For interactive widgets, maps
 folium
+streamlit-folium
 
 # Notebook environment
 jupyter
@@ -31,4 +32,8 @@ pyyaml
 
 #for excel 
 openpyxl
+
+#for pdf
+PyMuPDF
+
 
