@@ -1,6 +1,4 @@
-# requirements.txt
-
-# Core
+# Core libraries
 pandas
 numpy
 matplotlib
@@ -9,31 +7,33 @@ scikit-learn
 xgboost
 joblib
 
-# NLP 
+# NLP
 nltk
 spacy
+textblob
 
-# Streamlit dashboard
+# Streamlit Dashboard
 streamlit
 plotly
-
-# Geospatial 
-geopandas
-
-# For interactive widgets, maps
-folium
 streamlit-folium
 
-# Notebook environment
-jupyter
+# Geospatial processing
+folium
+rasterio
+geopandas
 
-# for config files 
-pyyaml 
-
-#for excel 
-openpyxl
-
-#for pdf
+# PDF extraction
 PyMuPDF
 
+# Notebook support
+jupyter
+
+# for Python's type checking and modern syntax support
+typing-extensions
+
+# For model evaluation and plots
+altair
+
+# Optional: Used in Streamlit Cloud to ensure compatibility
+python-dateutil
 
