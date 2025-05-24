@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project presents an integrated data analysis system focused on monitoring, analyzing, and forecasting the impacts of climate change in Nepal. Designed as a full-cycle solution, it leverages exploratory data analysis (EDA), machine learning (ML), geospatial visualization (GIS), and natural language processing (NLP) to provide information to data science studnets and ethusiasts about emerging climate risks and patterns in Nepal's vulnerable regions.
+This project presents an integrated data analysis system focused on monitoring, analyzing, and forecasting the impacts of climate change in Nepal. Designed as a full-cycle solution, it leverages exploratory data analysis (EDA), machine learning (ML), geospatial visualization (GIS), and natural language processing (NLP) to provide information to data science students and ethusiasts about emerging climate risks and patterns in Nepal's vulnerable regions.
 
 ## Objective
 
