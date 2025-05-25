@@ -47,7 +47,7 @@ def show_overview():
     - Sentiment and emotion analysis
     - Named entity and aspect-based insights
     """)
-    st.image("assets/Daily_temperature_trends_over_years.png", caption="Temperature Trends Over Years")
+    
 
     st.subheader("📂 Data Sources")
     st.markdown("""
@@ -69,12 +69,14 @@ def show_overview():
     st.subheader("📌 How to Use")
     st.markdown("""
     Use the **sidebar** to navigate through the modules:
-    - Overview
+    - Overview of the Dashboard
     - Exploratory Data Analysis
     - Model Training
     - Make Predictions
     - GIS Visualization
     - Text Analysis
-    - About
+    - About the Project 
     """)
+
+
 

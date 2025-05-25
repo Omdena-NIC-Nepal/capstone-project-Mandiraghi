@@ -8,9 +8,6 @@ xgboost
 joblib
 
 # NLP
-# spaCy language model
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl 
-
 nltk
 spacy
 textblob
@@ -40,3 +37,6 @@ altair
 
 # Optional: for compatibility
 python-dateutil
+
+# spaCy language model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
