@@ -3,9 +3,15 @@ import pandas as pd
 
 # Loading datasets and reading the data 
 
-def load_data(filepath = "capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"):
-    df = pd.read_csv(filepath, parse_dates = ['Date'])
+import pandas as pd
+import os
+
+def load_data(filepath=None):
+    if filepath is None:
+        filepath = os.path.join(os.path.dirname(__file__), "../../data/sampled_dataset.csv")
+    df = pd.read_csv(filepath, parse_dates=['Date'])
     return df
+
 
 
 # Feature engineering
