@@ -136,8 +136,7 @@ else:
         - [GitHub Profile](https://github.com/Mandiraghi)  
         - [LinkedIn Profile](https://www.linkedin.com/in/mandirag/)
 
-        This dashboard is part of a broader initiative to integrate data science with sustainability and policy-making for climate resilience in vulnerable regions like Nepal.
-    """)
+       """)
 
 
 

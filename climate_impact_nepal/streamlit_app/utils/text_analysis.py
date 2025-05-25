@@ -12,7 +12,7 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
-
+from textblob.exceptions import MissingCorpusError
 
 try:
     nlp = spacy.load("en_core_web_sm")
@@ -51,11 +51,18 @@ def clean_and_tokenize_text(text):
 
 # Sentiment analysis using TextBlob
 def get_sentiment(text):
-    blob = TextBlob(text)
-    return {
-        "polarity": blob.sentiment.polarity,
-        "subjectivity": blob.sentiment.subjectivity
-    }
+    try:
+        blob = TextBlob(text)
+        return {
+            "polarity": blob.sentiment.polarity,
+            "subjectivity": blob.sentiment.subjectivity
+        }
+    except MissingCorpusError:
+        return {
+            "polarity": None,
+            "subjectivity": None
+        }
+
 
 # Emotion detection (rule-based example)
 def classify_emotions(text):

@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+from textblob.exceptions import MissingCorpusError
 from utils.text_analysis import (
     extract_text_from_pdf,
     save_text_file,
