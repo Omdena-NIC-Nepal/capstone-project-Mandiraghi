@@ -3,11 +3,10 @@ import pandas as pd
 
 # Loading datasets and reading the data 
 
-def load_data(filepath = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"):
+def load_data(filepath = "capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"):
     df = pd.read_csv(filepath, parse_dates = ['Date'])
     return df
 
-# Feature Engineering for different Columns 
 
 # Feature engineering
 def for_ML_model_features(df):
@@ -25,9 +24,6 @@ def for_ML_model_features(df):
                  'WindSpeed_50m', 'MaxWindSpeed_50m', 'MinWindSpeed_50m']
     df['WindSpeed_Total'] = df[wind_cols].sum(axis=1)
 
-    # Year-Month combination
-    df['YearMonth'] = pd.to_datetime(df['Year'].astype(str) + '-' + df['Month'].astype(str) + '-01')
-
     return df
 
 
@@ -38,8 +34,8 @@ def save_updated_data(df, out_path):
 
 
 if __name__ == "__main__":
-    input_path = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"
-    output_path = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/data/processed/nepal_daily_climate_engineered.csv"
+    input_path = "capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"
+    output_path = "capstone-project-Mandiraghi/climate_impact_nepal/data/processed/nepal_daily_climate_engineered.csv"
 
     df = load_data(input_path)
     df = for_ML_model_features(df)
