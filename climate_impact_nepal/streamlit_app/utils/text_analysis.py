@@ -6,7 +6,6 @@ from spacy.cli import download
 from textblob import TextBlob
 from collections import Counter
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 from collections import defaultdict
 import nltk
@@ -20,7 +19,7 @@ try:
 except OSError:
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
-    
+
 
 # Extract full text from a PDF file
 def extract_text_from_pdf(uploaded_file):

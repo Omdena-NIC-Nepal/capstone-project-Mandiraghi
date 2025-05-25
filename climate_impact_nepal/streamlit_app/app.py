@@ -40,7 +40,8 @@ st.title("Nepal Climate Trends & Analytics Portal ")
 #Setting a sidebar 
 st.sidebar.title("Navigation Page")
 page = st.sidebar.radio("Go to",
-                         ["Overview",
+                         [
+                           "Overview",
                            "Exploratory Data Analysis", 
                            "Model Training", 
                            "Make Predictions",
@@ -70,6 +71,8 @@ if page == "Overview":
 
         Please use the sidebar to explore each functionality in detail.
     """)
+    # Add image (place your image in a relative path like 'assets/overview_banner.png')
+    st.image("capstone-project-Mandiraghi/climate_impact_nepal/data/Daily Temperature Trends Over Years.png", use_column_width=True)
 
 elif page == "Exploratory Data Analysis":
     st.title("🔍 Exploratory Data Analysis")
@@ -129,14 +132,30 @@ elif page == "Text Analysis":
 else:
     st.title("ℹ️ About This Dashboard")
     st.markdown("""
-        This dashboard was created as part of a capstone project focused on assessing and understanding climate change impacts in Nepal.
+        This interactive dashboard was developed as a capstone project for the **Omdena NIC Nepal Local Chapter** with the aim of analyzing and predicting climate change impacts in **Nepal**. It combines geospatial, statistical, and natural language processing (NLP) techniques to offer a comprehensive perspective on climate patterns, risks, and perceptions.
 
-        Tools used:
-        - **Python** for data processing and modeling
-        - **Streamlit** for web-based interactivity
-        - **scikit-learn**, **pandas**, **folium**, and **spaCy** for ML and NLP
+        ### 🔍 Key Capabilities:
+        - **Exploratory Data Analysis:** Visualizing climate variables such as temperature, rainfall, humidity, and wind speed over time and region.
+        - **Predictive Modeling:** Training machine learning models (Linear Regression, Random Forest, SVM, Ridge, Lasso) to forecast key climate variables.
+        - **GIS Visualization:** Mapping spatial distribution of climate metrics across districts using Folium and Streamlit-Folium.
+        - **Text Analysis:** Extracting and analyzing public climate perception from PDFs using sentiment analysis, emotion classification, and named entity recognition.
 
-        It integrates both quantitative (climate datasets) and qualitative (text documents) sources to give a holistic view of climate conditions and perceptions in Nepal.
+        ### 🛠 Tools & Technologies:
+        - **Python** for scripting and data pipelines
+        - **Streamlit** for front-end dashboard
+        - **scikit-learn**, **xgboost** for modeling
+        - **nltk**, **spaCy**, **TextBlob** for NLP
+        - **folium**, **geopandas**, **rasterio** for spatial analysis
+        - **matplotlib**, **seaborn**, **plotly** for visualization
 
+        ### 👤 Project Author:
+        **Mandira Ghimire**  (Omdena Student)
+        - [GitHub Profile](https://github.com/Mandiraghi)  
+        - [LinkedIn Profile](https://www.linkedin.com/in/mandirag/)
+
+        This dashboard is part of a broader initiative to integrate data science with sustainability and policy-making for climate resilience in vulnerable regions like Nepal.
     """)
+
+
+
 
