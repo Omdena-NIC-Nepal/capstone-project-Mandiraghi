@@ -71,9 +71,10 @@ if page == "Overview":
 
         Please use the sidebar to explore each functionality in detail.
     """)
-    # Add image
-    st.image("streamlit_app/assets/Daily_temperature_trends_over_years.png", use_column_width=True)
+    st.image("assets/Daily_temperature_trends_over_years.png", caption="Temperature Trends Over Years")
 
+
+    
 elif page == "Exploratory Data Analysis":
     st.title("🔍 Exploratory Data Analysis")
     st.markdown("""
