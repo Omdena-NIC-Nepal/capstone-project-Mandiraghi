@@ -4,6 +4,8 @@
 
 This project presents an integrated data analysis system focused on monitoring, analyzing, and forecasting the impacts of climate change in Nepal. Designed as a full-cycle solution, it leverages exploratory data analysis (EDA), machine learning (ML), geospatial visualization (GIS), and natural language processing (NLP) to provide information to data science students and ethusiasts about emerging climate risks and patterns in Nepal's vulnerable regions.
 
+# Link of the Project : Streamlit App 
+https://climate-capstone-project-mandiraghi.streamlit.app/ 
 ## Objective
 
 To create an end-to-end analytical platform that combines quantitative climate metrics and unstructured textual insights to:
@@ -115,4 +117,5 @@ climate_impact_nepal/
 ## Contributors
 
 * Mandira Ghimire (Omdena Student)
+
 
