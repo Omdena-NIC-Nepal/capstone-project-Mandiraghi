@@ -15,18 +15,18 @@ def show_analysis(df):
                  including its shape and the first few rows to understand the structure.""")
     st.write("Shape of the data:", df.shape)
 
-    st.markdown("================================________======================================")
+    st.markdown("---")
 
     st.write("First 5 rows of the dataset:")
     st.dataframe(df.head())
 
-    st.markdown("================================________========================================")
+    st.markdown("---")
 
     st.write("Missing values:")
     st.markdown("""Shows how many values are missing in each column to assess data completeness.""")
     st.dataframe(df.isnull().sum())
 
-    st.markdown("================================________========================================")
+    st.markdown("---")
 
     """Display Rainfall Outliers
     """
@@ -35,7 +35,7 @@ def show_analysis(df):
     outliers = exploratory.get_rainfall_outliers(df)
     st.dataframe(outliers.head())
 
-    st.markdown("================================________=========================================")
+    st.markdown("---")
 
     """Display hottest and coldest Days
     """
@@ -43,13 +43,13 @@ def show_analysis(df):
     st.markdown("""Displays the five days with the highest recorded temperatures in the dataset.""")
     st.dataframe(exploratory.get_hottest_days(df))
 
-    st.markdown("=================================________==========================================")
+    st.markdown("---")
 
     st.subheader("Top 5 Coldest Days")
     st.markdown("""Displays the five days with the lowest recorded temperatures in the dataset.""")
     st.dataframe(exploratory.get_coldest_days(df))
 
-    st.markdown("==================================________=========================================")
+    st.markdown("---")
 
     """Temperature on Map
     """
@@ -57,7 +57,7 @@ def show_analysis(df):
     st.markdown("""Visualizes temperature distribution across different districts in Nepal.""")
     fig_map = exploratory.plot_show_map(df)
     st.pyplot(fig_map)
-    st.markdown("==================================________==========================================")
+    st.markdown("---")
 
 
 
@@ -68,14 +68,14 @@ def show_analysis(df):
     fig1 = exploratory.plot_temp_distribution(df)
     st.pyplot(fig1)
 
-    st.markdown("==================================________===========================================")
+    st.markdown("---")
 
     st.subheader("Precipitation Distribution")
     st.markdown("""Plots the distribution of precipitation values across the dataset.""")
     fig2 = exploratory.plot_precip_distribution(df)
     st.pyplot(fig2)
 
-    st.markdown("==================================________===========================================")
+    st.markdown("---")
 
 
     """Plot temperature distribution
@@ -85,7 +85,7 @@ def show_analysis(df):
     fig3 = exploratory.plot_daily_temperature_trend(df)
     st.pyplot(fig3)
 
-    st.markdown("=====================================________=========================================")
+    st.markdown("---")
 
     """Plot Hottest districts
     """
@@ -94,7 +94,7 @@ def show_analysis(df):
     fig4 = exploratory.plot_top_hot_districts(df)
     st.pyplot(fig4)
 
-    st.markdown("========================================________======================================")
+    st.markdown("---")
 
     """Plot time series and Trends
     """
@@ -103,14 +103,14 @@ def show_analysis(df):
     fig5 = exploratory.plot_rainfall_trend(df)
     st.pyplot(fig5)
 
-    st.markdown("====================================________===========================================")
+    st.markdown("---")
 
     st.subheader("Wind Speed Trends")
     st.markdown("""A line plot showing how wind speed fluctuates over time, helping to spot seasonal or long-term trends.""")
     fig6 = exploratory.plot_wind_speed_trend(df)
     st.pyplot(fig6)
 
-    st.markdown("======================================________==========================================")
+    st.markdown("---")
 
     """
       Correlation 
@@ -121,7 +121,7 @@ def show_analysis(df):
     fig_corr7 = exploratory.plot_correlation_heatmap(df)
     st.pyplot(fig_corr7)
 
-    st.markdown("========================================________===========================================")
+    st.markdown("---")
 
     """
       Pair Plot 
@@ -131,7 +131,7 @@ def show_analysis(df):
     fig_pair8 = exploratory.plot_pairplot(df)
     st.pyplot(fig_pair8)
 
-    st.markdown("========================================________============================================")
+    st.markdown("---")
 
     """
     Seasonal Plots

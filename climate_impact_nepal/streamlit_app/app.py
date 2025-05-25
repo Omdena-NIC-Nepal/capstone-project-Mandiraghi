@@ -5,6 +5,7 @@ import streamlit as st
 import matplotlib.pyplot as plt 
 
 from utils.preprocess import load_data
+import st_overview
 import st_exploratory
 import st_model_training
 import st_prediction
@@ -41,13 +42,13 @@ st.title("Nepal Climate Trends & Analytics Portal ")
 st.sidebar.title("Navigation Page")
 page = st.sidebar.radio("Go to",
                          [
-                           "Overview",
+                           "Overview of the Dashboard",
                            "Exploratory Data Analysis", 
                            "Model Training", 
                            "Make Predictions",
                            "GIS Visualization",
                            "Text Analysis",
-                           "About"])
+                           "About the Project"])
 
 data_path = "capstone-project-Mandiraghi/climate_impact_nepal/data/sampled_dataset.csv"
 df = load_data()
@@ -55,25 +56,7 @@ df = load_data()
 
 # Page Content
 if page == "Overview":
-    st.subheader("Welcome to the Nepal Climate Impact Dashboard 🌏")
-    st.markdown("""
-        This interactive dashboard helps you explore, analyze, and understand climate change trends and their potential impacts across Nepal.
-
-        🔍 Use Exploratory Data Analysis to uncover patterns and distributions.
-
-        🤖 Train predictive machine learning models on climate features such as temperature, precipitation, humidity, and wind.
-
-        📈 Use trained models to make predictions and evaluate scenarios.
-
-        🗺️ Explore spatial patterns using GIS visualizations by district, year, and climate metrics.
-
-        📚 Analyze climate-related text documents for sentiment, emotion, and insights using NLP techniques.
-
-        Please use the sidebar to explore each functionality in detail.
-    """)
-    st.image("assets/Daily_temperature_trends_over_years.png", caption="Temperature Trends Over Years")
-
-
+    st_overview.show_overview()
     
 elif page == "Exploratory Data Analysis":
     st.title("🔍 Exploratory Data Analysis")
@@ -131,7 +114,7 @@ elif page == "Text Analysis":
     st_text_analysis.show_text_analysis_ui()
 
 else:
-    st.title("ℹ️ About This Dashboard")
+    st.title("ℹ️ About This Project ")
     st.markdown("""
         This interactive dashboard was developed as a capstone project for the **Omdena NIC Nepal Local Chapter** with the aim of analyzing and predicting climate change impacts in **Nepal**. It combines geospatial, statistical, and natural language processing (NLP) techniques to offer a comprehensive perspective on climate patterns, risks, and perceptions.
 
