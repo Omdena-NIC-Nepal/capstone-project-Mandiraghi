@@ -4,8 +4,6 @@ import fitz  # PyMuPDF
 import spacy
 from spacy.cli import download 
 from textblob import TextBlob
-from textblob.download_corpora import download_corpora
-from textblob.exceptions import MissingCorpusError
 from collections import Counter
 import pandas as pd
 import numpy as np
@@ -20,11 +18,6 @@ try:
 except OSError:
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
-
-try:
-    _ = TextBlob("test").sentiment
-except MissingCorpusError:
-    textblob.download_corpora.download_all()
 
 
 # Extract full text from a PDF file
@@ -87,21 +80,6 @@ def classify_emotions(text):
             emotion_counter[emotion] += text.count(word)
     return emotion_counter.most_common(3)
 
-
-# Extract aspect-based sentiment (simplified)
-def aspect_sentiment_analysis(text, aspects):
-    results = {}
-    blob = TextBlob(text)
-    for sentence in blob.sentences:
-        for aspect in aspects:
-            if aspect.lower() in sentence.lower():
-                sentiment = sentence.sentiment.polarity
-                if aspect in results:
-                    results[aspect].append(sentiment)
-                else:
-                    results[aspect] = [sentiment]
-    # Average sentiment per aspect
-    return {k: np.mean(v) for k, v in results.items()}
 
 # Sentiment over time (if text chunks have timestamps or meta info)
 def sentiment_over_time(texts_with_dates):

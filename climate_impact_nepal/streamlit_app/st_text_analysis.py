@@ -7,8 +7,7 @@ from utils.text_analysis import (
     load_text_file,
     clean_and_tokenize_text,
     get_sentiment,
-    classify_emotions,
-    aspect_sentiment_analysis
+    classify_emotions
 )
 
 UPLOAD_DIR = "climate_impact_nepal/data/uploads"
@@ -73,18 +72,6 @@ def show_text_analysis_ui():
         for emo, score in emotions:
             st.write(f"{emo.capitalize()}: {score:.2f}")
 
-
-        # Aspect Sentiment
-        st.subheader("Aspect-Based Sentiment")
-        default_aspects = ["temperature", "rainfall", "climate", "government", "Windspeed", "Precipitation", "dust", "warm", "cold", "extreme"]
-        aspects = st.multiselect("Select or add aspects:", default_aspects, default=default_aspects[:2])
-        if aspects:
-            aspect_scores = aspect_sentiment_analysis(raw_text, aspects)
-            if isinstance(aspect_scores, dict):
-                for asp, val in aspect_scores.items():
-                    st.write(f"{asp}: {val:.2f}")
-            else:
-                st.write("Aspect sentiment analysis failed or returned invalid data.")
     else:
         st.info("No .txt files found. Please upload one to get started.")
 
