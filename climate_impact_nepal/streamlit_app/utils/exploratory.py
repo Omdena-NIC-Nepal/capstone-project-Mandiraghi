@@ -50,7 +50,7 @@ def get_coldest_days(df):
     return df[['Date', 'District', 'MinTemp_2m']].sort_values(by='MinTemp_2m', ascending=True).head(5)
 
 # Direction to save plots locally
-SAVE_DIR = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/reports/figures"
+SAVE_DIR = "reports/figures"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 def save_plot(fig, filename):

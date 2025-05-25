@@ -92,7 +92,7 @@ def train_model(df, target_column="MaxTemp_2m", model_type="LinearRegression", s
 
     # Save the Model 
     if save_model:  
-        model_dir = "/Users/mandiraghimire/Desktop/MghiGitManu/capstone-project-Mandiraghi/climate_impact_nepal/models"
+        model_dir = "climate_impact_nepal/models"
         os.makedirs(model_dir, exist_ok=True)
         model_path = f"{model_dir}/model_{target_column}_{model_type}.pkl"
         joblib.dump(model, model_path)
