@@ -2,6 +2,7 @@ import os
 import re
 import fitz  # PyMuPDF
 import spacy
+from spacy.cli import download 
 from textblob import TextBlob
 from collections import Counter
 import pandas as pd
@@ -14,7 +15,12 @@ nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 
 
-nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+    
 
 # Extract full text from a PDF file
 def extract_text_from_pdf(uploaded_file):
