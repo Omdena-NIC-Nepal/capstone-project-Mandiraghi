@@ -42,10 +42,10 @@ st.title("Nepal Climate Trends & Analytics Portal ")
 st.sidebar.title("Navigation Page")
 page = st.sidebar.radio("Go to",
                          ["Overview of the Dashboard",
-                           "Exploratory Data Analysis", 
+                           "Exploratory Data Analysis",
+                           "GIS Visualization", 
                            "Model Training", 
                            "Make Predictions",
-                           "GIS Visualization",
                            "Text Analysis",
                            "About the Project"])
 
@@ -67,6 +67,17 @@ elif page == "Exploratory Data Analysis":
         - Identify anomalies, outliers, or potential data gaps.
     """)
     st_exploratory.show_analysis(df)
+
+elif page == "GIS Visualization":
+    st.title("🗺️ GIS-Based Visualization")
+    st.markdown("""
+        This section provides geospatial insights into Nepal’s climate data.
+
+        - Visualize climate metrics across different districts.
+        - Filter by year, month, and region.
+        - See hotspots or cool zones and analyze spatial variability.
+    """)
+    st_gis_visualization.show_gis_visualization_ui(df)
 
 elif page == "Model Training":
     st.title("🤖 Train a Climate Prediction Model")
@@ -90,16 +101,6 @@ elif page == "Make Predictions":
     """)
     st_prediction.show_prediction_ui(df)
 
-elif page == "GIS Visualization":
-    st.title("🗺️ GIS-Based Visualization")
-    st.markdown("""
-        This section provides geospatial insights into Nepal’s climate data.
-
-        - Visualize climate metrics across different districts.
-        - Filter by year, month, and region.
-        - See hotspots or cool zones and analyze spatial variability.
-    """)
-    st_gis_visualization.show_gis_visualization_ui(df)
 
 elif page == "Text Analysis":
     st.title("Insights on Climate Change")

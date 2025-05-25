@@ -4,6 +4,8 @@ import fitz  # PyMuPDF
 import spacy
 from spacy.cli import download 
 from textblob import TextBlob
+from textblob.download_corpora import download_corpora
+from textblob.exceptions import MissingCorpusError
 from collections import Counter
 import pandas as pd
 import numpy as np
@@ -12,13 +14,17 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
-from textblob.exceptions import MissingCorpusError
 
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
+
+try:
+    _ = TextBlob("test").sentiment
+except MissingCorpusError:
+    textblob.download_corpora.download_all()
 
 
 # Extract full text from a PDF file
