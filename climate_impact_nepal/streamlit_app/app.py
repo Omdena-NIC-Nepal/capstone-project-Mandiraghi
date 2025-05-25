@@ -41,8 +41,7 @@ st.title("Nepal Climate Trends & Analytics Portal ")
 #Setting a sidebar 
 st.sidebar.title("Navigation Page")
 page = st.sidebar.radio("Go to",
-                         [
-                           "Overview of the Dashboard",
+                         ["Overview of the Dashboard",
                            "Exploratory Data Analysis", 
                            "Model Training", 
                            "Make Predictions",
@@ -55,7 +54,7 @@ df = load_data()
 
 
 # Page Content
-if page == "Overview":
+if page == "Overview of the Dashboard":
     st_overview.show_overview()
     
 elif page == "Exploratory Data Analysis":

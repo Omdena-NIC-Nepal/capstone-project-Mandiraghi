@@ -58,14 +58,6 @@ def show_overview():
     Note: The original dataset (~116 MB) has been reduced to <100 MB for performance and web deployment.
     """)
 
-    st.subheader("🧰 Tools & Technologies")
-    st.markdown("""
-    - Python, pandas, scikit-learn, matplotlib, seaborn for analysis and modeling
-    - Streamlit for dashboard interface
-    - Folium and Geopandas for GIS mapping
-    - spaCy, TextBlob, and NLTK for NLP capabilities
-    """)
-
     st.subheader("📌 How to Use")
     st.markdown("""
     Use the **sidebar** to navigate through the modules:
