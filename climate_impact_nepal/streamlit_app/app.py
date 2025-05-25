@@ -71,8 +71,8 @@ if page == "Overview":
 
         Please use the sidebar to explore each functionality in detail.
     """)
-    # Add image (place your image in a relative path like 'assets/overview_banner.png')
-    st.image("capstone-project-Mandiraghi/climate_impact_nepal/data/Daily_temperature_trends_over_years.png", use_column_width=True)
+    # Add image
+    st.image("capstone-project-Mandiraghi/climate_impact_nepal/streamlit_app/assets/Daily_temperature_trends_over_years.png", use_column_width=True)
 
 elif page == "Exploratory Data Analysis":
     st.title("🔍 Exploratory Data Analysis")
